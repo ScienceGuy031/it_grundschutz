@@ -1,0 +1,15 @@
+#introduction {
+  height: 45vh;
+}
+
+#introduction h1 {
+  padding-top: 20vh;
+}
+
+h2 {
+  padding-top: 2vh;
+}
+
+h2:nth-of-type(1) {
+  padding-top: 0;
+}

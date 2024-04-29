@@ -27,29 +27,32 @@
               Lektionen
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Lektion 1</a></li>
-              <li><a class="dropdown-item" href="#">Lektion 2</a></li>
-              <li><a class="dropdown-item" href="#">Lektion 3</a></li>
-              <li><a class="dropdown-item" href="#">Lektion 4</a></li>
-              <li><a class="dropdown-item" href="#">Lektion 5</a></li>
-              <li><a class="dropdown-item" href="#">Lektion 6</a></li>
-              <li><a class="dropdown-item" href="#">Lektion 7</a></li>
-              <li><a class="dropdown-item" href="#">Lektion 8</a></li>
-              <li><a class="dropdown-item" href="#">Lektion 9</a></li>
+              <li><a class="dropdown-item" href="#L1">Lektion 1 - Einstieg</a></li>
+              <li><a class="dropdown-item" href="#L2">Lektion 2 - Sicherheitsmanagement</a></li>
+              <li><a class="dropdown-item" href="#L3">Lektion 3 - Strukturanalyse</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Andere Informationen?</a></li>
+              <li><a class="dropdown-item" href="#L4">Lektion 4 - Schutzbedarfsfeststellung</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#L5">Lektion 5 - Modellierung</a></li>
+              <li><a class="dropdown-item" href="#L6">Lektion 6 - IT-Grundschutz-Check</a></li>
+              <li><a class="dropdown-item" href="#L7">Lektion 7 - Risikoanalyse</a></li>
+              <li><a class="dropdown-item" href="#L8">Lektion 8 - Umsetzungsplanung</a></li>
+              <li><a class="dropdown-item" href="#L9">Lektion 9 - Aufrechterhaltung und Verbesserung</a></li>
             </ul>
           </li>
         </ul>
-        <form class="d-flex">
+        <!--<form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        </form>-->
       </div>
     </div>
   </nav>
+  <hr>
 
   <div class="container-fluid text-bg-dark" id="root">
     <div id="introduction" class="pt-10 bp-10 text-center">
@@ -58,7 +61,7 @@
     <hr>
 
     <!-- Lektion 1 -->
-    <h2 data-heading="Lektion 1 - Einstieg">Lektion 1 - Einstieg</h2>
+    <h2 id="L1" data-heading="Lektion 1 - Einstieg">Lektion 1 - Einstieg</h2>
     <hr>
 
     <div class="accordion" id="AccL1">
@@ -239,7 +242,7 @@
     </div>
 
     <!-- Lektion 2 -->
-    <h2 data-heading="Lektion 2 - Sicherheitsmanagement">Lektion 2 - Sicherheitsmanagement</h2>
+    <h2 id="L2" data-heading="Lektion 2 - Sicherheitsmanagement">Lektion 2 - Sicherheitsmanagement</h2>
     <hr>
 
     <div class="accordion" id="AccL2">
@@ -285,7 +288,7 @@
               Veränderungen in Verfahren, gesetzlichen Rahmenbedingungen, Technologien und Schwachstellen erfordern eine
               fortlaufende Überprüfung. Der Sicherheitsprozess durchläuft verschiedene Phasen im Lebenszyklus.</p>
             <p><img alt="img_6.png" src="src/img_6.png" class="img-fluid d-block mx-auto"></p>
-            <table>
+            <table class="table table-dark table-striped table-hover table-bordered">
               <thead>
                 <tr>
                   <th>Phase</th>
@@ -673,7 +676,7 @@
     </div>
 
     <!-- Lektion 3 -->
-    <h2 data-heading="Lektion 3 - Strukturanalyse">Lektion 3 - Strukturanalyse</h2>
+    <h2 id="L3" data-heading="Lektion 3 - Strukturanalyse">Lektion 3 - Strukturanalyse</h2>
     <hr>
 
     <div class="accordion" id="AccL3">
@@ -820,7 +823,7 @@
 
     </div>
 
-    <h2 data-heading="Lektion 4 - Schutzbedarfsfeststellung">Lektion 4 - Schutzbedarfsfeststellung</h2>
+    <h2 id="L4" data-heading="Lektion 4 - Schutzbedarfsfeststellung">Lektion 4 - Schutzbedarfsfeststellung</h2>
     <hr>
 
     <div class="accordion" id="AccL4">
@@ -1106,7 +1109,7 @@
       </div>
     </div>
 
-    <h2 data-heading="Lektion 5 – Modellierung">Lektion 5 – Modellierung</h2>
+    <h2 id="L5" data-heading="Lektion 5 – Modellierung">Lektion 5 – Modellierung</h2>
     <hr>
 
     <div class="accordion" id="AccL5">
@@ -1228,7 +1231,7 @@
               <strong>Ansprechpartner</strong>.<br>
               Als Beispiel die Dokumentation der Modellierung
             </p>
-            <table>
+            <table class="table table-dark table-striped table-hover table-bordered">
               <thead>
                 <tr>
                   <th><strong>Baustein (Ansprechpartner)</strong></th>
@@ -1311,11 +1314,11 @@
                 </tr>
               </tbody>
             </table>
-            <p><em>Quelle:</em> <a data-tooltip-position="top"
+            <p><a data-tooltip-position="top"
                 aria-label="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_04/Lektion_5_04_node.html"
                 rel="noopener" class="external-link"
                 href="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_04/Lektion_5_04_node.html"
-                target="_blank"><em>https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_04/Lektion_5_04_node.html</em></a>
+                target="_blank">Quelle</a>
             </p>
           </div>
         </div>
@@ -1344,7 +1347,7 @@
     </div>
 
 
-    <h2 data-heading="Lektion 6 – IT-Grundschutz-Check">Lektion 6 – IT-Grundschutz-Check</h2>
+    <h2 id="L6" data-heading="Lektion 6 – IT-Grundschutz-Check">Lektion 6 – IT-Grundschutz-Check</h2>
     <hr>
 
     <div class="accordion" id="AccL6">
@@ -1495,7 +1498,7 @@
         <div id="q47" class="accordion-collapse collapse" data-bs-parent="#AccL6">
           <div class="accordion-body">
             <p>Überprüfung für die RECPLAST GmbH</p>
-            <table>
+            <table class="table table-dark table-striped table-hover table-bordered">
               <thead>
                 <tr>
                   <th>Anforderung (Verantwortung)</th>
@@ -1550,7 +1553,7 @@
       </div>
     </div>
 
-    <h2 data-heading="Lektion 7 – Risikoanalyse">Lektion 7 – Risikoanalyse</h2>
+    <h2 id="L7" data-heading="Lektion 7 – Risikoanalyse">Lektion 7 – Risikoanalyse</h2>
     <hr>
 
     <div class="accordion" id="AccL7">
@@ -1707,7 +1710,7 @@
         </h3>
         <div id="q55" class="accordion-collapse collapse" data-bs-parent="#AccL7">
           <div class="accordion-body">
-            <table>
+            <table class="table table-dark table-striped table-hover table-bordered">
               <thead>
                 <tr>
                   <th>Risikobewertung</th>
@@ -1805,7 +1808,7 @@
                 </ul>
               </li>
             </ul>
-            <table>
+            <table class="table table-dark table-striped table-hover table-bordered">
               <thead>
                 <tr>
                   <th>Gefährdung</th>
@@ -1854,7 +1857,7 @@
       </div>
     </div>
 
-    <h2 data-heading="Lektion 8 - Umsetzungsplanung">Lektion 8 - Umsetzungsplanung</h2>
+    <h2 id="L8" data-heading="Lektion 8 - Umsetzungsplanung">Lektion 8 - Umsetzungsplanung</h2>
     <hr>
 
     <div class="accordion" id="AccL8">
@@ -1906,7 +1909,7 @@
       </div>
     </div>
 
-    <h2 data-heading="Lektion 9 – Aufrechterhaltung und Verbesserung">Lektion 9 – Aufrechterhaltung und Verbesserung
+    <h2 id="L9" data-heading="Lektion 9 – Aufrechterhaltung und Verbesserung">Lektion 9 – Aufrechterhaltung und Verbesserung
     </h2>
     <hr>
 
@@ -2208,6 +2211,12 @@
         </div>
       </div>
     </div>
+    <hr>
+    <footer class="blockquote-footer p-2 text-end">
+      
+      Autoren: Daniel Eckstein, Benjamin Kurtisi und Daniel Obyn
+    </footer>
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
