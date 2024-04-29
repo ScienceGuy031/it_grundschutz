@@ -2,4 +2,4 @@
 
 Web-Overview for IT-Grundschutz
 
-[GitHub Pages](https://scienceguy031.github.io/it-grundschutz)
+[GitHub Pages](https://scienceguy031.github.io/it_grundschutz)
