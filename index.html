@@ -822,690 +822,1392 @@
 
     <h2 data-heading="Lektion 4 - Schutzbedarfsfeststellung">Lektion 4 - Schutzbedarfsfeststellung</h2>
     <hr>
-    <h3 data-heading="25. Nennen Sie das Ziel der Schutzbedarfsfeststellung!">25. Nennen Sie das Ziel der
-      Schutzbedarfsfeststellung!</h3>
-    <p>Das Ziel der Schutzbedarfsfeststellung ist es, den Schutz des betrachteten Informationsverbundes und die dem
-      zugehörigen Zielobjekte, begründete und nachvollziehbare Einschätzungen des Schutzbedarfes und Zielobjekte welche
-      mehr Sicherheit oder nur Standart-Anforderungen benötigen zu definieren.</p>
-    <h3 data-heading="26. Nennen und beschreiben Sie die Grundwerte der Schutzbedarfsfeststellung!">26. Nennen und
-      beschreiben Sie die Grundwerte der Schutzbedarfsfeststellung!</h3>
-    <p>Die Grundwerte der Schutzbedarfsfeststellung sind Vertraulichkeit, Integrität und Verfügbarkeit. Vertraulichkeit
-      beschreibt die Gewährung von Sicherheit vertraulicher Information. Integrität beschreibt die Korrektheit der
-      Informationen und der Funktionsweise von Systemen. Verfügbarkeit beschreibt die Erreichbarkeit und den Zugriff von
-      Informationen und Systemen von autorisierten Benutzern.</p>
-    <h3 data-heading="27. Beschreiben Sie die drei Schutzbedarfskategorie!">27. Beschreiben Sie die drei
-      Schutzbedarfskategorie!</h3>
-    <p>Die drei Schutzbedarfskategorien des BSI IT-Grundschutzes sind:</p>
-    <ul>
-      <li>normal:
-        <ul>
-          <li>die Schadensauswirkungen sind begrenzt und überschaubar.</li>
-          <li>Der mögliche finanzielle Schaden ist kleiner als 50.000 Euro.</li>
-          <li>Ausfallzeiten von mehr als 24 Stunden können hingenommen werden.</li>
-        </ul>
-      </li>
-      <li>hoch:
-        <ul>
-          <li>die Schadensauswirkungen können beträchtlich sein.</li>
-          <li>Ausfallzeiten dürfen maximal 24 Stunden betragen.</li>
-          <li>Der mögliche finanzielle Schaden liegt zwischen 50.000 und 500.000 Euro.</li>
-        </ul>
-      </li>
-      <li>sehr hoch:
-        <ul>
-          <li>die Schadensauswirkungen können ein existenziell bedrohliches, katastrophales Ausmaß erreichen.</li>
-          <li>Die Ausfallzeit, die über zwei Stunden hinausgehen, nicht toleriert werden können.</li>
-          <li>Der mögliche finanzielle Schaden liegt zwischen 50.000 und 500.000 Euro.</li>
-        </ul>
-      </li>
-    </ul>
-    <h3 data-heading="28. Was verstehen Sie unter einem Schadensszenario?">28. Was verstehen Sie unter einem
-      Schadensszenario?</h3>
-    <p>Ein Schadensszenario ist eine negative Auswirkung auf eine Firma. Beispiele für Schadensszenarien sind:</p>
-    <ul>
-      <li>Verstöße gegen Gesetze, Vorschriften oder Verträge,</li>
-      <li>Beeinträchtigungen des informationellen Selbstbestimmungsrechts,</li>
-      <li>Beeinträchtigungen der persönlichen Unversehrtheit,</li>
-      <li>Beeinträchtigungen der Aufgabenerfüllung,</li>
-      <li>negative Innen- oder Außenwirkung oder</li>
-      <li>finanzielle Auswirkungen.</li>
-    </ul>
-    <h3 data-heading="29. Was verstehen Sie unter „vererben“ und welche Fälle können unterschieden werden?">29. Was
-      verstehen Sie unter „vererben“ und welche Fälle können unterschieden werden?</h3>
-    <p>Mit der Vererbung ist gemeint, dass sich der bestimmte Schutzbedarf der Geschäftsprozesse und der zugehörigen
-      Informationen auf den Schutzbedarf der Anwendungen, IT-Systeme, Räume und Kommunikationsverbindungen vererbt.</p>
-    <p>Folgende Fälle lassen sich in der Vererbung am Beispiel von IT-Systemen unterscheiden:</p>
-    <ul>
-      <li>In den meisten Fällen lässt sich der höchste Schutzbedarf aller Anwendungen, die das IT-System benötigen,
-        übernehmen (Maximumprinzip).</li>
-      <li>Wenn eine Anwendung auf die Ergebnisse einer anderen Anwendung angewiesen ist, überträgt sich ihr Schutzbedarf
-        auf diese benötigte Anwendung, dasselbe gilt für Systeme.</li>
-      <li>Der Schutzbedarf des IT-Systems kann höher sein als der Schutzbedarf der einzelnen Anwendungen
-        (Kumulationseffekt).</li>
-      <li>Der Schutzbedarf kann niedriger sein als der Schutzbedarf der zugeordneten Anwendungen, wenn eine Anwendung
-        mit hohem Schutzbedarf auf mehrere Systeme verteilt ist und auf dem betreffenden IT-System nur weniger wichtige
-        Teile dieser Anwendung ausgeführt werden (Verteilungseffekt).</li>
-    </ul>
-    <h3 data-heading="30. Was verstehen Sie unter Verteilungseffekt, Kumulationseffekt und Maximumprinzip ?">30. Was
-      verstehen Sie unter Verteilungseffekt, Kumulationseffekt und Maximumprinzip ?</h3>
-    <p><strong>Maximumprinzip</strong><br>
-      Die möglichen Schäden der relevanten Teilobjekte müssen in ihrer Gesamtheit betrachtet werden. Beispielsweise
-      müsste bei einem IT-System beleuchtet werden, welche Auswirkungen Schäden bei den darauf betriebenen Anwendungen
-      und den damit verarbeiteten Informationen haben. Diese Schäden bestimmen den nötigen Schutzbedarf der Objekte.</p>
-    <p><strong>Kumulationseffekt</strong><br>
-      Werden mehrere Anwendungen bzw. Informationen auf einem IT-System verarbeitet, so ist zu überlegen, ob durch
-      Kumulation mehrerer Schäden auf einem IT-System ein insgesamt höherer Gesamtschaden entstehen kann, falls ja
-      erhöht sich der Schutzbedarf des Objektes.</p>
-    <p><strong>Verteilungseffekt</strong><br>
-      Der Schutzbedarf kann niedriger sein als der Schutzbedarf der zugeordneten Anwendungen, wenn eine Anwendung mit
-      hohem Schutzbedarf auf mehrere Systeme verteilt ist und auf dem betreffenden IT-System nur weniger wichtige Teile
-      dieser Anwendung ausgeführt werden.</p>
-    <h3 data-heading="31.&nbsp; Aus welcher Sicht sollten Schadensszenarien entwickelt werden?">31.&nbsp; Aus welcher
-      Sicht sollten Schadensszenarien entwickelt werden?</h3>
-    <p>Sie sollten aus der Sicht der Anwender entwickelt werden.</p>
-    <h3 data-heading="32.&nbsp; Welche Fragestellung hilft ihnen ein Schadensszenario zu entwickeln?">32.&nbsp; Welche
-      Fragestellung hilft ihnen ein Schadensszenario zu entwickeln?</h3>
-    <p>Um ein Schadenszenario zu entwickeln sollte man sich die fragen,</p>
-    <ul>
-      <li>Gegen welche Gesetze oder Vorschriften wird verstoßen?</li>
-      <li>Gibt es Personen, deren informationelles Selbstbestimmungsrecht beeinträchtigt wird? Wenn ja, mit welchen
-        Folgen?</li>
-      <li>Wie stark werden Abläufe in der Firma behindert?</li>
-      <li>Droht ein Image-Schaden und mit welchen Folgen wäre er verbunden?</li>
-      <li>Kann dieser Vorfall finanzielle Auswirkungen haben und falls ja, in welcher Höhe?</li>
-    </ul>
-    <h3
-      data-heading="33. Illustrieren Sie eine Schutzbedarfsfeststellung für die Anwendung Textverarbeitung inkl. Schutzziel und Schutzbedarf!">
-      33. Illustrieren Sie eine Schutzbedarfsfeststellung für die Anwendung Textverarbeitung inkl. Schutzziel und
-      Schutzbedarf!</h3>
-    <p><img alt="img_33.png" src="src/img_33.png" class="img-fluid d-block mx-auto"></p>
-    <h3
-      data-heading="34. Illustrieren Sie die Schutzbedarfsfeststellung für die IT-Systeme Router inkl. Schutzziel und Schutzbedarf!">
-      34. Illustrieren Sie die Schutzbedarfsfeststellung für die IT-Systeme Router inkl. Schutzziel und Schutzbedarf!
-    </h3>
-    <p><img alt="img_34_1.png" src="src/img_34_1.png" class="img-fluid d-block mx-auto"><br>
-      <img alt="img_34_2.png" src="src/img_34_2.png" class="img-fluid d-block mx-auto">
-    </p>
-    <h3
-      data-heading="35. Illustrieren Sie die Schutzbedarfsfeststellung für die Räume Technikraum inkl. Schutzziel und Schutzbedarf!">
-      35. Illustrieren Sie die Schutzbedarfsfeststellung für die Räume Technikraum inkl. Schutzziel und Schutzbedarf!
-    </h3>
-    <p><img alt="img_35.png" src="src/img_35.png" class="img-fluid d-block mx-auto"></p>
-    <h3
-      data-heading="36. Illustrieren Sie die Schutzbedarfsfeststellung für die Kommunikationsverbindungen Anbindung der Arbeitsplätze der Geschäftsführung inkl. Schutzziel und Schutzbedarf!">
-      36. Illustrieren Sie die Schutzbedarfsfeststellung für die Kommunikationsverbindungen Anbindung der Arbeitsplätze
-      der Geschäftsführung inkl. Schutzziel und Schutzbedarf!</h3>
-    <p><img alt="img_36_1.png" src="src/img_36_1.png" class="img-fluid d-block mx-auto"><br>
-      <img alt="img_36_2.png" src="src/img_36_2.png" class="img-fluid d-block mx-auto">
-    </p>
+
+    <div class="accordion" id="AccL4">
+      <div class="accordion-item">
+        <h3 data-heading="25. Nennen Sie das Ziel der Schutzbedarfsfeststellung!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q25"
+            aria-expanded="false" aria-controls="q25">
+            25. Nennen Sie das Ziel der Schutzbedarfsfeststellung!
+          </button>
+        </h3>
+        <div id="q25" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p>Das Ziel der Schutzbedarfsfeststellung ist es, den Schutz des betrachteten Informationsverbundes und die
+              dem
+              zugehörigen Zielobjekte, begründete und nachvollziehbare Einschätzungen des Schutzbedarfes und Zielobjekte
+              welche
+              mehr Sicherheit oder nur Standart-Anforderungen benötigen zu definieren.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="26. Nennen und beschreiben Sie die Grundwerte der Schutzbedarfsfeststellung!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q26"
+            aria-expanded="false" aria-controls="q26">
+            26. Nennen und
+            beschreiben Sie die Grundwerte der Schutzbedarfsfeststellung!
+          </button>
+        </h3>
+        <div id="q26" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p>Die Grundwerte der Schutzbedarfsfeststellung sind Vertraulichkeit, Integrität und Verfügbarkeit.
+              Vertraulichkeit
+              beschreibt die Gewährung von Sicherheit vertraulicher Information. Integrität beschreibt die Korrektheit
+              der
+              Informationen und der Funktionsweise von Systemen. Verfügbarkeit beschreibt die Erreichbarkeit und den
+              Zugriff
+              von
+              Informationen und Systemen von autorisierten Benutzern.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="27. Beschreiben Sie die drei Schutzbedarfskategorie!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q27"
+            aria-expanded="false" aria-controls="q27">
+            27. Beschreiben Sie die drei Schutzbedarfskategorie!
+          </button>
+        </h3>
+        <div id="q27" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p>Die drei Schutzbedarfskategorien des BSI IT-Grundschutzes sind:</p>
+            <ul>
+              <li>normal:
+                <ul>
+                  <li>die Schadensauswirkungen sind begrenzt und überschaubar.</li>
+                  <li>Der mögliche finanzielle Schaden ist kleiner als 50.000 Euro.</li>
+                  <li>Ausfallzeiten von mehr als 24 Stunden können hingenommen werden.</li>
+                </ul>
+              </li>
+              <li>hoch:
+                <ul>
+                  <li>die Schadensauswirkungen können beträchtlich sein.</li>
+                  <li>Ausfallzeiten dürfen maximal 24 Stunden betragen.</li>
+                  <li>Der mögliche finanzielle Schaden liegt zwischen 50.000 und 500.000 Euro.</li>
+                </ul>
+              </li>
+              <li>sehr hoch:
+                <ul>
+                  <li>die Schadensauswirkungen können ein existenziell bedrohliches, katastrophales Ausmaß erreichen.
+                  </li>
+                  <li>Die Ausfallzeit, die über zwei Stunden hinausgehen, nicht toleriert werden können.</li>
+                  <li>Der mögliche finanzielle Schaden liegt zwischen 50.000 und 500.000 Euro.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="28. Was verstehen Sie unter einem Schadensszenario?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q28"
+            aria-expanded="false" aria-controls="q28">
+            28. Was verstehen Sie unter einem Schadensszenario?
+          </button>
+        </h3>
+        <div id="q28" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p>Ein Schadensszenario ist eine negative Auswirkung auf eine Firma. Beispiele für Schadensszenarien sind:
+            </p>
+            <ul>
+              <li>Verstöße gegen Gesetze, Vorschriften oder Verträge,</li>
+              <li>Beeinträchtigungen des informationellen Selbstbestimmungsrechts,</li>
+              <li>Beeinträchtigungen der persönlichen Unversehrtheit,</li>
+              <li>Beeinträchtigungen der Aufgabenerfüllung,</li>
+              <li>negative Innen- oder Außenwirkung oder</li>
+              <li>finanzielle Auswirkungen.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="29. Was verstehen Sie unter „vererben“ und welche Fälle können unterschieden werden?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q29"
+            aria-expanded="false" aria-controls="q29">
+            29. Was
+            verstehen Sie unter „vererben“ und welche Fälle können unterschieden werden?
+          </button>
+        </h3>
+        <div id="q29" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p>Mit der Vererbung ist gemeint, dass sich der bestimmte Schutzbedarf der Geschäftsprozesse und der
+              zugehörigen
+              Informationen auf den Schutzbedarf der Anwendungen, IT-Systeme, Räume und Kommunikationsverbindungen
+              vererbt.
+            </p>
+            <p>Folgende Fälle lassen sich in der Vererbung am Beispiel von IT-Systemen unterscheiden:</p>
+            <ul>
+              <li>In den meisten Fällen lässt sich der höchste Schutzbedarf aller Anwendungen, die das IT-System
+                benötigen,
+                übernehmen (Maximumprinzip).</li>
+              <li>Wenn eine Anwendung auf die Ergebnisse einer anderen Anwendung angewiesen ist, überträgt sich ihr
+                Schutzbedarf
+                auf diese benötigte Anwendung, dasselbe gilt für Systeme.</li>
+              <li>Der Schutzbedarf des IT-Systems kann höher sein als der Schutzbedarf der einzelnen Anwendungen
+                (Kumulationseffekt).</li>
+              <li>Der Schutzbedarf kann niedriger sein als der Schutzbedarf der zugeordneten Anwendungen, wenn eine
+                Anwendung
+                mit hohem Schutzbedarf auf mehrere Systeme verteilt ist und auf dem betreffenden IT-System nur weniger
+                wichtige
+                Teile dieser Anwendung ausgeführt werden (Verteilungseffekt).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="30. Was verstehen Sie unter Verteilungseffekt, Kumulationseffekt und Maximumprinzip ?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q30"
+            aria-expanded="false" aria-controls="q30">
+            30. Was
+            verstehen Sie unter Verteilungseffekt, Kumulationseffekt und Maximumprinzip?
+          </button>
+        </h3>
+        <div id="q30" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p><strong>Maximumprinzip</strong><br>
+              Die möglichen Schäden der relevanten Teilobjekte müssen in ihrer Gesamtheit betrachtet werden.
+              Beispielsweise
+              müsste bei einem IT-System beleuchtet werden, welche Auswirkungen Schäden bei den darauf betriebenen
+              Anwendungen
+              und den damit verarbeiteten Informationen haben. Diese Schäden bestimmen den nötigen Schutzbedarf der
+              Objekte.
+            </p>
+            <p><strong>Kumulationseffekt</strong><br>
+              Werden mehrere Anwendungen bzw. Informationen auf einem IT-System verarbeitet, so ist zu überlegen, ob
+              durch
+              Kumulation mehrerer Schäden auf einem IT-System ein insgesamt höherer Gesamtschaden entstehen kann, falls
+              ja
+              erhöht sich der Schutzbedarf des Objektes.</p>
+            <p><strong>Verteilungseffekt</strong><br>
+              Der Schutzbedarf kann niedriger sein als der Schutzbedarf der zugeordneten Anwendungen, wenn eine
+              Anwendung
+              mit
+              hohem Schutzbedarf auf mehrere Systeme verteilt ist und auf dem betreffenden IT-System nur weniger
+              wichtige
+              Teile
+              dieser Anwendung ausgeführt werden.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="31. Aus welcher Sicht sollten Schadensszenarien entwickelt werden?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q31"
+            aria-expanded="false" aria-controls="q31">
+            31. Aus welcher
+            Sicht sollten Schadensszenarien entwickelt werden?
+          </button>
+        </h3>
+        <div id="q31" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p>Sie sollten aus der Sicht der Anwender entwickelt werden.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="32. Welche Fragestellung hilft ihnen ein Schadensszenario zu entwickeln?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q32"
+            aria-expanded="false" aria-controls="q32">
+            32.
+            Welche
+            Fragestellung hilft ihnen ein Schadensszenario zu entwickeln?
+          </button>
+        </h3>
+        <div id="q32" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p>Um ein Schadenszenario zu entwickeln sollte man sich die fragen,</p>
+            <ul>
+              <li>Gegen welche Gesetze oder Vorschriften wird verstoßen?</li>
+              <li>Gibt es Personen, deren informationelles Selbstbestimmungsrecht beeinträchtigt wird? Wenn ja, mit
+                welchen
+                Folgen?</li>
+              <li>Wie stark werden Abläufe in der Firma behindert?</li>
+              <li>Droht ein Image-Schaden und mit welchen Folgen wäre er verbunden?</li>
+              <li>Kann dieser Vorfall finanzielle Auswirkungen haben und falls ja, in welcher Höhe?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3
+          data-heading="33. Illustrieren Sie eine Schutzbedarfsfeststellung für die Anwendung Textverarbeitung inkl. Schutzziel und Schutzbedarf!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q33"
+            aria-expanded="false" aria-controls="q33">
+            33. Illustrieren Sie eine Schutzbedarfsfeststellung für die Anwendung Textverarbeitung inkl. Schutzziel und
+            Schutzbedarf!
+          </button>
+        </h3>
+        <div id="q33" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p><img alt="img_33.png" src="src/img_33.png" class="img-fluid d-block mx-auto"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3
+          data-heading="34. Illustrieren Sie die Schutzbedarfsfeststellung für die IT-Systeme Router inkl. Schutzziel und Schutzbedarf!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q34"
+            aria-expanded="false" aria-controls="q34">
+            34. Illustrieren Sie die Schutzbedarfsfeststellung für die IT-Systeme Router inkl. Schutzziel und
+            Schutzbedarf!
+          </button>
+        </h3>
+        <div id="q34" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p><img alt="img_34_1.png" src="src/img_34_1.png" class="img-fluid d-block mx-auto"><br>
+              <img alt="img_34_2.png" src="src/img_34_2.png" class="img-fluid d-block mx-auto">
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3
+          data-heading="35. Illustrieren Sie die Schutzbedarfsfeststellung für die Räume Technikraum inkl. Schutzziel und Schutzbedarf!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q35"
+            aria-expanded="false" aria-controls="q35">
+            35. Illustrieren Sie die Schutzbedarfsfeststellung für die Räume Technikraum inkl. Schutzziel und
+            Schutzbedarf!
+          </button>
+        </h3>
+        <div id="q35" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p><img alt="img_35.png" src="src/img_35.png" class="img-fluid d-block mx-auto"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3
+          data-heading="36. Illustrieren Sie die Schutzbedarfsfeststellung für die Kommunikationsverbindungen Anbindung der Arbeitsplätze der Geschäftsführung inkl. Schutzziel und Schutzbedarf!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q36"
+            aria-expanded="false" aria-controls="q36">
+            36. Illustrieren Sie die Schutzbedarfsfeststellung für die Kommunikationsverbindungen Anbindung der
+            Arbeitsplätze
+            der Geschäftsführung inkl. Schutzziel und Schutzbedarf!
+          </button>
+        </h3>
+        <div id="q36" class="accordion-collapse collapse" data-bs-parent="#AccL4">
+          <div class="accordion-body">
+            <p><img alt="img_36_1.png" src="src/img_36_1.png" class="img-fluid d-block mx-auto"><br>
+              <img alt="img_36_2.png" src="src/img_36_2.png" class="img-fluid d-block mx-auto">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <h2 data-heading="Lektion 5 – Modellierung">Lektion 5 – Modellierung</h2>
     <hr>
-    <h3 data-heading="37. Was verstehen Sie unter Modellierung?">37. Was verstehen Sie unter Modellierung?</h3>
-    <p>Eine Modellierung ist ein graphisches Abbild der Wirklichkeit, welches die wesentlichen Einflussfaktoren
-      anzeigt.<br>
-      Der Prozess besteht aus:</p>
-    <ul>
-      <li>der <strong>Abgrenzung</strong> durch Nichtberücksichtigung irrelevanter Objekte,</li>
-      <li>der <strong>Reduktion</strong> durch Weglassen von Details,</li>
-      <li>der <strong>Dekomposition</strong> durch Zerlegung, Auflösung in einzelne Segmente,</li>
-      <li>der <strong>Aggregation</strong> durch Vereinigung und Zusammenfassen von Segmenten und</li>
-      <li>der <strong>Abstraktion</strong> durch Begriffs- bzw. Klassenbildung.</li>
-    </ul>
-    <h3 data-heading="38. Was verstehen Sie unter IT-Grundschutz-Bausteine?">38. Was verstehen Sie unter
-      IT-Grundschutz-Bausteine?</h3>
-    <p>Den Kern des IT-Grundschutz-Kompendium bilden die jeweils rund zehn Seiten langen
-      <strong>IT-Grundschutz-Bausteine</strong>. Diese beschreiben jeweils für einen bestimmten Aspekt der
-      Informationssicherheit typische Gefährdungen und Sicherheitsanforderungen. Die Bausteine können übergeordnete
-      Themen, wie das Informationssicherheits- oder Notfallmanagement oder auch spezielle technische Systeme, die
-      üblicherweise in Unternehmen und Behörden eingesetzt werden, enthalten.<br>
-      Alle Bausteine sind gegliedert in:
-    </p>
-    <ul>
-      <li>eine <strong>kurze Beschreibung</strong> und Abgrenzung des behandelten Sachverhalts.</li>
-      <li>eine Darstellung der spezifischen <strong>Gefährdungslage mit Hilfe exemplarischer Gefährdungen</strong>.</li>
-      <li>einem Kern aus:
-        <ul>
-          <li>vorrangig zu erfüllenden <strong>Basis-Anforderungen</strong>,</li>
-          <li><strong>Standard-Anforderungen</strong>, die dem Stand der Technik gemäß sind und</li>
-          <li>Anforderungen für den <strong>erhöhten Schutzbedarf</strong>.</li>
-        </ul>
-      </li>
-      <li>den <strong>Abschluss</strong> durch Verweise auf weiterführende Informationen, sowie einer
-        Kreuzreferenztabelle, in der die Anforderungen mit den jeweils zutreffenden Gefährdungen miteinander in Bezug
-        gesetzt werden.</li>
-    </ul>
-    <h3 data-heading="39. Nennen Sie die IT-Grundschutzbausteine!">39. Nennen Sie die IT-Grundschutzbausteine!</h3>
-    <p><img alt="img_39.png" src="src/img_39.png" class="img-fluid d-block mx-auto"></p>
-    <h3 data-heading="40. Beschreiben Sie die Vorteile des Schichtenmodells!">40. Beschreiben Sie die Vorteile des
-      Schichtenmodells!</h3>
-    <p>Die Einteilung der Bausteine im IT-Grundschutz-Kompendium bietet Vorteile wie die Reduzierung der Komplexität der
-      Informationssicherheit und die Vermeidung von Redundanzen. Dies ermöglicht es, spezifische Aspekte eines
-      Sicherheitskonzepts zu aktualisieren, ohne andere Teile zu beeinflussen. Die Schichten sind so gestaltet, dass sie
-      spezifische Zuständigkeiten bündeln, wobei die Schichten ISMS und ORP das Sicherheitsmanagement, die Schicht INF
-      die Haustechnik und die Schichten SYS, NET und APP die jeweiligen Verantwortlichen für IT-Systeme, Netze und
-      Anwendungen adressieren.</p>
-    <h3
-      data-heading="41. Beschreiben Sei die Dokumentation der Modellierung und geben Sie ein praktisches Beispiel dazu an!">
-      41. Beschreiben Sei die Dokumentation der Modellierung und geben Sie ein praktisches Beispiel dazu an!</h3>
-    <p>Bei der Dokumentation der Modellierung werden alle benötigten Informationen angegeben. Diese Umfassen
-      <strong>Inhalt/Baustein</strong>, <strong>Zielobjekt</strong>, <strong>Relevanz</strong> und
-      <strong>Ansprechpartner</strong>.<br>
-      Als Beispiel die Dokumentation der Modellierung
-    </p>
-    <table>
-      <thead>
-        <tr>
-          <th><strong>Baustein (Ansprechpartner)</strong></th>
-          <th><strong>Zielobjekte</strong></th>
-          <th><strong>Relevanz</strong></th>
-          <th><strong>Begründung</strong></th>
-          <th><strong>Ansprechpartner</strong></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>APP.5.2 <em>Microsoft Exchange/Outlook</em></strong></td>
-          <td>S004</td>
-          <td>Ja</td>
-          <td></td>
-          <td>IT-Betrieb</td>
-        </tr>
-        <tr>
-          <td><strong>INF.1 <em>Allgemeines Gebäude</em></strong></td>
-          <td>GB1, GB2</td>
-          <td>Ja</td>
-          <td></td>
-          <td>Haustechnik</td>
-        </tr>
-        <tr>
-          <td><strong>INF.2 <em>Rechenzentrum sowie Serverraum</em></strong></td>
-          <td>R002</td>
-          <td>Ja</td>
-          <td></td>
-          <td>IT-Betrieb</td>
-        </tr>
-        <tr>
-          <td><strong>INF.4 <em>IT-Verkabelung</em></strong></td>
-          <td>Informations-verbund</td>
-          <td>Ja</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><strong>INF.7 <em>Büroarbeitsplatz</em></strong></td>
-          <td>R008 bis R011</td>
-          <td>Ja</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><strong>INF.8 <em>Häuslicher Arbeitsplatz</em></strong></td>
-          <td>R099</td>
-          <td>Ja</td>
-          <td>Die Vertriebsbüros werden wie Home Offices behandelt.</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><strong>IND.2.2 <em>Speicherprogrammier-bare Steuerung (SPS</em>)</strong></td>
-          <td>I001</td>
-          <td>Ja</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><strong>SYS.1.5 <em>Virtualisierung</em></strong></td>
-          <td>S007</td>
-          <td>Ja</td>
-          <td></td>
-          <td>IT-Betrieb</td>
-        </tr>
-        <tr>
-          <td><strong>SYS.3.1 <em>Laptops</em></strong></td>
-          <td>L001 bis L009</td>
-          <td>Ja</td>
-          <td></td>
-          <td>IT-Betrieb</td>
-        </tr>
-        <tr>
-          <td><strong>OPS.3.1 O<em>utsourcing für Dienstleister</em></strong></td>
-          <td></td>
-          <td>Nein</td>
-          <td>Solche Dienste werden nicht angeboten.</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-    <p><em>Quelle:</em> <a data-tooltip-position="top"
-        aria-label="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_04/Lektion_5_04_node.html"
-        rel="noopener" class="external-link"
-        href="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_04/Lektion_5_04_node.html"
-        target="_blank"><em>https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_04/Lektion_5_04_node.html</em></a>
-    </p>
-    <h3
-      data-heading="42. Maßnahmen, mit denen eine Anforderung erfüllt wird, müssen angemessen sein. Was bedeutet angemessen in diesem Zusammenhang?">
-      42. Maßnahmen, mit denen eine Anforderung erfüllt wird, müssen angemessen sein. Was bedeutet angemessen in diesem
-      Zusammenhang?</h3>
-    <p>Maßnahmen sind angemessen, wenn sie <strong>wirksam</strong>, <strong>geeignet</strong>,
-      <strong>praktikabel</strong> sind, <strong>Akzeptanz</strong> <strong>finden</strong> und auch
-      <strong>wirtschaftlich eingeführt und betrieben</strong> werden können.
-    </p>
+
+    <div class="accordion" id="AccL5">
+
+      <div class="accordion-item">
+        <h3 data-heading="37. Was verstehen Sie unter Modellierung?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q37"
+            aria-expanded="false" aria-controls="q37">
+            37. Was verstehen Sie unter Modellierung?
+          </button>
+        </h3>
+        <div id="q37" class="accordion-collapse collapse" data-bs-parent="#AccL5">
+          <div class="accordion-body">
+            <p>Eine Modellierung ist ein graphisches Abbild der Wirklichkeit, welches die wesentlichen Einflussfaktoren
+              anzeigt.<br>
+              Der Prozess besteht aus:</p>
+            <ul>
+              <li>der <strong>Abgrenzung</strong> durch Nichtberücksichtigung irrelevanter Objekte,</li>
+              <li>der <strong>Reduktion</strong> durch Weglassen von Details,</li>
+              <li>der <strong>Dekomposition</strong> durch Zerlegung, Auflösung in einzelne Segmente,</li>
+              <li>der <strong>Aggregation</strong> durch Vereinigung und Zusammenfassen von Segmenten und</li>
+              <li>der <strong>Abstraktion</strong> durch Begriffs- bzw. Klassenbildung.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="38. Was verstehen Sie unter IT-Grundschutz-Bausteine?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q38"
+            aria-expanded="false" aria-controls="q39">
+            38. Was verstehen Sie unter IT-Grundschutz-Bausteine?
+          </button>
+        </h3>
+        <div id="q38" class="accordion-collapse collapse" data-bs-parent="#AccL5">
+          <div class="accordion-body">
+            <p>Den Kern des IT-Grundschutz-Kompendium bilden die jeweils rund zehn Seiten langen
+              <strong>IT-Grundschutz-Bausteine</strong>. Diese beschreiben jeweils für einen bestimmten Aspekt der
+              Informationssicherheit typische Gefährdungen und Sicherheitsanforderungen. Die Bausteine können
+              übergeordnete
+              Themen, wie das Informationssicherheits- oder Notfallmanagement oder auch spezielle technische Systeme,
+              die
+              üblicherweise in Unternehmen und Behörden eingesetzt werden, enthalten.<br>
+              Alle Bausteine sind gegliedert in:
+            </p>
+            <ul>
+              <li>eine <strong>kurze Beschreibung</strong> und Abgrenzung des behandelten Sachverhalts.</li>
+              <li>eine Darstellung der spezifischen <strong>Gefährdungslage mit Hilfe exemplarischer
+                  Gefährdungen</strong>.
+              </li>
+              <li>einem Kern aus:
+                <ul>
+                  <li>vorrangig zu erfüllenden <strong>Basis-Anforderungen</strong>,</li>
+                  <li><strong>Standard-Anforderungen</strong>, die dem Stand der Technik gemäß sind und</li>
+                  <li>Anforderungen für den <strong>erhöhten Schutzbedarf</strong>.</li>
+                </ul>
+              </li>
+              <li>den <strong>Abschluss</strong> durch Verweise auf weiterführende Informationen, sowie einer
+                Kreuzreferenztabelle, in der die Anforderungen mit den jeweils zutreffenden Gefährdungen miteinander in
+                Bezug
+                gesetzt werden.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="39. Nennen Sie die IT-Grundschutzbausteine!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q39"
+            aria-expanded="false" aria-controls="q39">
+            39. Nennen Sie die IT-Grundschutzbausteine!
+          </button>
+        </h3>
+        <div id="q39" class="accordion-collapse collapse" data-bs-parent="#AccL5">
+          <div class="accordion-body">
+            <p><img alt="img_39.png" src="src/img_39.png" class="img-fluid d-block mx-auto"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="40. Beschreiben Sie die Vorteile des Schichtenmodells!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q40"
+            aria-expanded="false" aria-controls="q40">
+            40. Beschreiben Sie die Vorteile des Schichtenmodells!
+          </button>
+        </h3>
+        <div id="q40" class="accordion-collapse collapse" data-bs-parent="#AccL5">
+          <div class="accordion-body">
+            <p>Die Einteilung der Bausteine im IT-Grundschutz-Kompendium bietet Vorteile wie die Reduzierung der
+              Komplexität
+              der
+              Informationssicherheit und die Vermeidung von Redundanzen. Dies ermöglicht es, spezifische Aspekte eines
+              Sicherheitskonzepts zu aktualisieren, ohne andere Teile zu beeinflussen. Die Schichten sind so gestaltet,
+              dass
+              sie
+              spezifische Zuständigkeiten bündeln, wobei die Schichten ISMS und ORP das Sicherheitsmanagement, die
+              Schicht
+              INF
+              die Haustechnik und die Schichten SYS, NET und APP die jeweiligen Verantwortlichen für IT-Systeme, Netze
+              und
+              Anwendungen adressieren.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3
+          data-heading="41. Beschreiben Sei die Dokumentation der Modellierung und geben Sie ein praktisches Beispiel dazu an!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q41"
+            aria-expanded="false" aria-controls="q41">
+            41. Beschreiben Sei die Dokumentation der Modellierung und geben Sie ein praktisches Beispiel dazu an!
+          </button>
+        </h3>
+        <div id="q41" class="accordion-collapse collapse" data-bs-parent="#AccL5">
+          <div class="accordion-body">
+            <p>Bei der Dokumentation der Modellierung werden alle benötigten Informationen angegeben. Diese Umfassen
+              <strong>Inhalt/Baustein</strong>, <strong>Zielobjekt</strong>, <strong>Relevanz</strong> und
+              <strong>Ansprechpartner</strong>.<br>
+              Als Beispiel die Dokumentation der Modellierung
+            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th><strong>Baustein (Ansprechpartner)</strong></th>
+                  <th><strong>Zielobjekte</strong></th>
+                  <th><strong>Relevanz</strong></th>
+                  <th><strong>Begründung</strong></th>
+                  <th><strong>Ansprechpartner</strong></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>APP.5.2 <em>Microsoft Exchange/Outlook</em></strong></td>
+                  <td>S004</td>
+                  <td>Ja</td>
+                  <td></td>
+                  <td>IT-Betrieb</td>
+                </tr>
+                <tr>
+                  <td><strong>INF.1 <em>Allgemeines Gebäude</em></strong></td>
+                  <td>GB1, GB2</td>
+                  <td>Ja</td>
+                  <td></td>
+                  <td>Haustechnik</td>
+                </tr>
+                <tr>
+                  <td><strong>INF.2 <em>Rechenzentrum sowie Serverraum</em></strong></td>
+                  <td>R002</td>
+                  <td>Ja</td>
+                  <td></td>
+                  <td>IT-Betrieb</td>
+                </tr>
+                <tr>
+                  <td><strong>INF.4 <em>IT-Verkabelung</em></strong></td>
+                  <td>Informations-verbund</td>
+                  <td>Ja</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>INF.7 <em>Büroarbeitsplatz</em></strong></td>
+                  <td>R008 bis R011</td>
+                  <td>Ja</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>INF.8 <em>Häuslicher Arbeitsplatz</em></strong></td>
+                  <td>R099</td>
+                  <td>Ja</td>
+                  <td>Die Vertriebsbüros werden wie Home Offices behandelt.</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>IND.2.2 <em>Speicherprogrammier-bare Steuerung (SPS</em>)</strong></td>
+                  <td>I001</td>
+                  <td>Ja</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><strong>SYS.1.5 <em>Virtualisierung</em></strong></td>
+                  <td>S007</td>
+                  <td>Ja</td>
+                  <td></td>
+                  <td>IT-Betrieb</td>
+                </tr>
+                <tr>
+                  <td><strong>SYS.3.1 <em>Laptops</em></strong></td>
+                  <td>L001 bis L009</td>
+                  <td>Ja</td>
+                  <td></td>
+                  <td>IT-Betrieb</td>
+                </tr>
+                <tr>
+                  <td><strong>OPS.3.1 O<em>utsourcing für Dienstleister</em></strong></td>
+                  <td></td>
+                  <td>Nein</td>
+                  <td>Solche Dienste werden nicht angeboten.</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            <p><em>Quelle:</em> <a data-tooltip-position="top"
+                aria-label="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_04/Lektion_5_04_node.html"
+                rel="noopener" class="external-link"
+                href="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_04/Lektion_5_04_node.html"
+                target="_blank"><em>https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_5_Modellierung/Lektion_5_04/Lektion_5_04_node.html</em></a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3
+          data-heading="42. Maßnahmen, mit denen eine Anforderung erfüllt wird, müssen angemessen sein. Was bedeutet angemessen in diesem Zusammenhang?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q42"
+            aria-expanded="false" aria-controls="q42">
+            42. Maßnahmen, mit denen eine Anforderung erfüllt wird, müssen angemessen sein. Was bedeutet angemessen in
+            diesem
+            Zusammenhang?
+          </button>
+        </h3>
+        <div id="q42" class="accordion-collapse collapse" data-bs-parent="#AccL5">
+          <div class="accordion-body">
+            <p>Maßnahmen sind angemessen, wenn sie
+              <strong>wirksam</strong>, <strong>geeignet</strong>,
+              <strong>praktikabel</strong> sind, <strong>Akzeptanz</strong> <strong>finden</strong> und auch
+              <strong>wirtschaftlich eingeführt und betrieben</strong> werden können.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <h2 data-heading="Lektion 6 – IT-Grundschutz-Check">Lektion 6 – IT-Grundschutz-Check</h2>
     <hr>
-    <h3 data-heading="43. Was verstehen Sie unter einem Soll-Ist-Vergleich">43. Was verstehen Sie unter einem
-      Soll-Ist-Vergleich</h3>
-    <p>Ein Soll-Ist-Vergleich ist in der IT ein IT-Grundschutz Check ist ein effizientes Instrument zur Feststellung, ob
-      eine Institution ihre Informationen und die gesamte Informationstechnik umfassend genug schützt.</p>
-    <h3 data-heading="44. Wie sollte der Soll-Ist-Vergleich vorbereitet und durchgeführt werden?">44. Wie sollte der
-      Soll-Ist-Vergleich vorbereitet und durchgeführt werden?</h3>
-    <p>Das <strong>IT-Grundschutz-Modell</strong> sollte mit den <strong>umgesetzten Sicherheitsmaßnahmen</strong>
-      verglichen werden. Das ermöglicht den Vergleich zwischen dem erreichten Sicherheitsniveau und den relevanten
-      Anforderungen.</p>
-    <h3 data-heading="45. Wie kann der Erfüllungsgrad dokumentiert werden?">45. Wie kann der Erfüllungsgrad dokumentiert
-      werden?</h3>
-    <p>Der Erfüllungsgrad kann in <strong>vier</strong> Stufen unterteilt werden:</p>
-    <ol>
-      <li><strong>"Entbehrlich"</strong>, wenn die Erfüllung einer Anforderung nicht notwendig ist, da den möglichen
-        Gefährdungen mit mindestens gleichwertigen Ersatzmaßnahmen entgegengewirkt wird oder wenn die Empfehlungen für
-        den betrachteten Einsatzzweck nicht relevant sind,</li>
-      <li><strong>"Ja"</strong>, wenn die Anforderung durch geeignete Maßnahmen vollständig, wirksam und angemessen
-        erfüllt wird,</li>
-      <li><strong>"Teilweise"</strong>, wenn die Anforderung nur teilweise erfüllt wird,</li>
-      <li><strong>"Nein"</strong>, wenn die Anforderung nicht erfüllt wird, geeignete Maßnahmen also größtenteils noch
-        nicht umgesetzt sind.</li>
-    </ol>
-    <h3 data-heading="46. Wie können die Entscheidungskriterien bewertet werden?">46. Wie können die
-      Entscheidungskriterien bewertet werden?</h3>
-    <p>Bewertung als:</p>
-    <ul>
-      <li><strong>Vollständig umgesetzt</strong>:
-        <ul>
-          <li>Gesamtverantwortung bei Leitungsebene mit sechs durch <strong>muss</strong> als verpflichtend
-            gekennzeichnete Teilanforderungen. Die Leitungsebene <strong>muss</strong>
+
+    <div class="accordion" id="AccL6">
+      <div class="accordion-item">
+        <h3 data-heading="43. Was verstehen Sie unter einem Soll-Ist-Vergleich">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q43"
+            aria-expanded="false" aria-controls="q43">
+            43. Was verstehen Sie unter einem Soll-Ist-Vergleich?
+          </button>
+        </h3>
+        <div id="q43" class="accordion-collapse collapse" data-bs-parent="#AccL6">
+          <div class="accordion-body">
+            <p>Ein Soll-Ist-Vergleich ist in der IT ein IT-Grundschutz Check ist ein effizientes Instrument zur
+              Feststellung,
+              ob
+              eine Institution ihre Informationen und die gesamte Informationstechnik umfassend genug schützt.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="44. Wie sollte der Soll-Ist-Vergleich vorbereitet und durchgeführt werden?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q44"
+            aria-expanded="false" aria-controls="q44">
+            44. Wie sollte der
+            Soll-Ist-Vergleich vorbereitet und durchgeführt werden?
+          </button>
+        </h3>
+        <div id="q44" class="accordion-collapse collapse" data-bs-parent="#AccL6">
+          <div class="accordion-body">
+            <p>Das <strong>IT-Grundschutz-Modell</strong> sollte mit den <strong>umgesetzten
+                Sicherheitsmaßnahmen</strong>
+              verglichen werden. Das ermöglicht den Vergleich zwischen dem erreichten Sicherheitsniveau und den
+              relevanten
+              Anforderungen.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="45. Wie kann der Erfüllungsgrad dokumentiert werden?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q45"
+            aria-expanded="false" aria-controls="q45">
+            45. Wie kann der Erfüllungsgrad
+            dokumentiert
+            werden?
+          </button>
+        </h3>
+        <div id="q45" class="accordion-collapse collapse" data-bs-parent="#AccL6">
+          <div class="accordion-body">
+            <p>Der Erfüllungsgrad kann in <strong>vier</strong> Stufen unterteilt werden:</p>
+            <ol>
+              <li><strong>"Entbehrlich"</strong>, wenn die Erfüllung einer Anforderung nicht notwendig ist, da den
+                möglichen
+                Gefährdungen mit mindestens gleichwertigen Ersatzmaßnahmen entgegengewirkt wird oder wenn die
+                Empfehlungen
+                für
+                den betrachteten Einsatzzweck nicht relevant sind,</li>
+              <li><strong>"Ja"</strong>, wenn die Anforderung durch geeignete Maßnahmen vollständig, wirksam und
+                angemessen
+                erfüllt wird,</li>
+              <li><strong>"Teilweise"</strong>, wenn die Anforderung nur teilweise erfüllt wird,</li>
+              <li><strong>"Nein"</strong>, wenn die Anforderung nicht erfüllt wird, geeignete Maßnahmen also
+                größtenteils
+                noch
+                nicht umgesetzt sind.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="46. Wie können die Entscheidungskriterien bewertet werden?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q46"
+            aria-expanded="false" aria-controls="q46">
+            46. Wie können die
+            Entscheidungskriterien bewertet werden?
+          </button>
+        </h3>
+        <div id="q46" class="accordion-collapse collapse" data-bs-parent="#AccL6">
+          <div class="accordion-body">
+            <p>Bewertung als:</p>
             <ul>
-              <li>die Gesamtverantwortung für Informationssicherheit übernehmen,</li>
-              <li>den Sicherheitsprozess initiieren, steuern und kontrollieren,</li>
-              <li>Informationssicherheit vorleben,</li>
-              <li>die Zuständigkeiten für Informationssicherheit festlegen und die zuständigen Mitarbeiter mit den
-                erforderlichen Kompetenzen und Ressourcen ausstatten,</li>
-              <li>sich regelmäßig über den Status der Informationssicherheit informieren lassen und</li>
-              <li>sich <strong>insbesondere</strong> über mögliche Risiken und Konsequenzen aufgrund fehlender
-                Sicherheitsmaßnahmen informieren lassen.</li>
+              <li><strong>Vollständig umgesetzt</strong>:
+                <ul>
+                  <li>Gesamtverantwortung bei Leitungsebene mit sechs durch <strong>muss</strong> als verpflichtend
+                    gekennzeichnete Teilanforderungen. Die Leitungsebene <strong>muss</strong>
+                    <ul>
+                      <li>die Gesamtverantwortung für Informationssicherheit übernehmen,</li>
+                      <li>den Sicherheitsprozess initiieren, steuern und kontrollieren,</li>
+                      <li>Informationssicherheit vorleben,</li>
+                      <li>die Zuständigkeiten für Informationssicherheit festlegen und die zuständigen Mitarbeiter mit
+                        den
+                        erforderlichen Kompetenzen und Ressourcen ausstatten,</li>
+                      <li>sich regelmäßig über den Status der Informationssicherheit informieren lassen und</li>
+                      <li>sich <strong>insbesondere</strong> über mögliche Risiken und Konsequenzen aufgrund fehlender
+                        Sicherheitsmaßnahmen informieren lassen.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><strong>Entbehrlich</strong>:
+                <ul>
+                  <li>Es kann unter bestimmten Umständen sinnvoll sein, Sicherheitsaufgaben einem externen
+                    Informationssicherheitsbeauftragten (ISB) zu übertragen. Es ist wichtig, die Rechte und Pflichten
+                    des
+                    externen ISB im Voraus festzulegen und vertraglich zu vereinbaren.</li>
+                </ul>
+              </li>
+              <li><strong>Teilweise erfüllt</strong>:
+                <ul>
+                  <li>Wenn bei der Überprüfung festgestellt wird, dass die IT-Systeme so konfiguriert sind, dass übliche
+                    Benutzeraktivitäten nur mit eingeschränkten Rechten ausgeführt werden und Systemzugriffe auf
+                    Administratoren
+                    beschränkt sind, ist zumindest ein Teil der Anforderung erfüllt. Das Fehlen eines expliziten
+                    Benutzer-
+                    und
+                    Administrationskonzepts, ohne stichhaltigen Grund, führt jedoch dazu, dass die Anforderung nur
+                    teilweise
+                    erfüllt ist.</li>
+                </ul>
+              </li>
+              <li><strong>Nicht erfüllt</strong>:
+                <ul>
+                  <li>Es gibt mögliche Szenarien, in denen einzelne IT-Systeme es erfordern könnten, dass auch normale
+                    Benutzer
+                    temporäre Administrationsrechte erhalten, beispielsweise für die Nutzung spezieller Software. In
+                    solchen
+                    Fällen müssen zusätzliche Maßnahmen ergriffen werden, um die mit der Nichterfüllung der
+                    Basis-Anforderung
+                    verbundenen Risiken zu begrenzen.</li>
+                </ul>
+              </li>
             </ul>
-          </li>
-        </ul>
-      </li>
-      <li><strong>Entbehrlich</strong>:
-        <ul>
-          <li>Es kann unter bestimmten Umständen sinnvoll sein, Sicherheitsaufgaben einem externen
-            Informationssicherheitsbeauftragten (ISB) zu übertragen. Es ist wichtig, die Rechte und Pflichten des
-            externen ISB im Voraus festzulegen und vertraglich zu vereinbaren.</li>
-        </ul>
-      </li>
-      <li><strong>Teilweise erfüllt</strong>:
-        <ul>
-          <li>Wenn bei der Überprüfung festgestellt wird, dass die IT-Systeme so konfiguriert sind, dass übliche
-            Benutzeraktivitäten nur mit eingeschränkten Rechten ausgeführt werden und Systemzugriffe auf Administratoren
-            beschränkt sind, ist zumindest ein Teil der Anforderung erfüllt. Das Fehlen eines expliziten Benutzer- und
-            Administrationskonzepts, ohne stichhaltigen Grund, führt jedoch dazu, dass die Anforderung nur teilweise
-            erfüllt ist.</li>
-        </ul>
-      </li>
-      <li><strong>Nicht erfüllt</strong>:
-        <ul>
-          <li>Es gibt mögliche Szenarien, in denen einzelne IT-Systeme es erfordern könnten, dass auch normale Benutzer
-            temporäre Administrationsrechte erhalten, beispielsweise für die Nutzung spezieller Software. In solchen
-            Fällen müssen zusätzliche Maßnahmen ergriffen werden, um die mit der Nichterfüllung der Basis-Anforderung
-            verbundenen Risiken zu begrenzen.</li>
-        </ul>
-      </li>
-    </ul>
-    <h3
-      data-heading="47. Beschreiben Sie ein Beispiel der Dokumentation des IT-Grundschutz-Checks inkl. Anforderung / Status / Umsetzung!">
-      47. Beschreiben Sie ein Beispiel der Dokumentation des IT-Grundschutz-Checks inkl. Anforderung / Status /
-      Umsetzung!</h3>
-    <p>Überprüfung für die RECPLAST GmbH</p>
-    <table>
-      <thead>
-        <tr>
-          <th>Anforderung (Verantwortung)</th>
-          <th>Status</th>
-          <th>Umsetzung</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>ISMS.1.A1</strong> Übernahme der<br>Gesamtverantwortung für<br>Informationssicherheit durch
-            die<br>Leitungsebene<br>(Institutionsleitung)</td>
-          <td>erfüllt</td>
-          <td>Die Geschäftsführung hat die Erstellung der<br>Leitlinie initiiert. Die Leitlinie wurde von
-            der<br>Geschäftsführung unterzeichnet. Die<br>Geschäftsführung hat die gesamte<br>Verantwortung für das
-            Thema<br>Informationssicherheit übernommen und<br>delegiert an den ISB die Umsetzung der<br>geforderten
-            Maßnahmen. Einmal monatlich<br>erhält die Geschäftsführung einen Management-<br>Report, kontrolliert den
-            Umsetzungsstand der<br>Maßnahmen, initiiert bei Bedarf weitere<br>Maßnahmen und bewilligt das
-            entsprechende<br>Budget.</td>
-        </tr>
-        <tr>
-          <td><strong>ISMS.1.A5</strong> Vertragsgestaltung bei<br>Bestellung eines
-            externen<br>Informationssicherheitsbeauftragten<br>(Institutionsleitung)</td>
-          <td>entbehrlich</td>
-          <td>Der Informationssicherheitsbeauftragte ist ein<br>Mitarbeiter der RECPLAST GmbH.</td>
-        </tr>
-        <tr>
-          <td><strong>ISMS.1.A7</strong> Festlegung von<br>Sicherheitsmaßnahmen<br>(ISB)</td>
-          <td>teilweise</td>
-          <td>Alle Mitarbeiter, die Maßnahmen im Sinne der<br>Informationssicherheit umsetzen, sind<br>verpflichtet,
-            diese zu dokumentieren und dem<br>ISB per E-Mail zuzusenden. Eine Auswertung und<br>ausreichende
-            Dokumentation der umgesetzten<br>Maßnahmen gibt es nicht. <br>Umsetzungszeitpunkt für
-            ausführliche<br>Dokumentation: 30.04.</td>
-        </tr>
-        <tr>
-          <td><strong>ISMS.1.A11</strong> Aufrechterhaltung der<br>Informationssicherheit<br>(ISB)</td>
-          <td>erfüllt</td>
-          <td>Alle Dokumente und Prozesse werden einmal<br>jährlich einem internen Audit unterzogen. Der ISB<br>hat
-            dafür die entsprechende fachliche<br>Weisungsbefugnis für die Mitarbeiter, in deren<br>Verantwortungsbereich
-            einzelne Dokumente und<br>Prozesse fallen.</td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3
+          data-heading="47. Beschreiben Sie ein Beispiel der Dokumentation des IT-Grundschutz-Checks inkl. Anforderung / Status / Umsetzung!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q47"
+            aria-expanded="false" aria-controls="q47">
+            47. Beschreiben Sie ein Beispiel der Dokumentation des IT-Grundschutz-Checks inkl. Anforderung / Status /
+            Umsetzung!
+          </button>
+        </h3>
+        <div id="q47" class="accordion-collapse collapse" data-bs-parent="#AccL6">
+          <div class="accordion-body">
+            <p>Überprüfung für die RECPLAST GmbH</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Anforderung (Verantwortung)</th>
+                  <th>Status</th>
+                  <th>Umsetzung</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>ISMS.1.A1</strong> Übernahme der<br>Gesamtverantwortung für<br>Informationssicherheit
+                    durch
+                    die<br>Leitungsebene<br>(Institutionsleitung)</td>
+                  <td>erfüllt</td>
+                  <td>Die Geschäftsführung hat die Erstellung der<br>Leitlinie initiiert. Die Leitlinie wurde von
+                    der<br>Geschäftsführung unterzeichnet. Die<br>Geschäftsführung hat die gesamte<br>Verantwortung für
+                    das
+                    Thema<br>Informationssicherheit übernommen und<br>delegiert an den ISB die Umsetzung
+                    der<br>geforderten
+                    Maßnahmen. Einmal monatlich<br>erhält die Geschäftsführung einen Management-<br>Report, kontrolliert
+                    den
+                    Umsetzungsstand der<br>Maßnahmen, initiiert bei Bedarf weitere<br>Maßnahmen und bewilligt das
+                    entsprechende<br>Budget.</td>
+                </tr>
+                <tr>
+                  <td><strong>ISMS.1.A5</strong> Vertragsgestaltung bei<br>Bestellung eines
+                    externen<br>Informationssicherheitsbeauftragten<br>(Institutionsleitung)</td>
+                  <td>entbehrlich</td>
+                  <td>Der Informationssicherheitsbeauftragte ist ein<br>Mitarbeiter der RECPLAST GmbH.</td>
+                </tr>
+                <tr>
+                  <td><strong>ISMS.1.A7</strong> Festlegung von<br>Sicherheitsmaßnahmen<br>(ISB)</td>
+                  <td>teilweise</td>
+                  <td>Alle Mitarbeiter, die Maßnahmen im Sinne der<br>Informationssicherheit umsetzen,
+                    sind<br>verpflichtet,
+                    diese zu dokumentieren und dem<br>ISB per E-Mail zuzusenden. Eine Auswertung und<br>ausreichende
+                    Dokumentation der umgesetzten<br>Maßnahmen gibt es nicht. <br>Umsetzungszeitpunkt für
+                    ausführliche<br>Dokumentation: 30.04.</td>
+                </tr>
+                <tr>
+                  <td><strong>ISMS.1.A11</strong> Aufrechterhaltung der<br>Informationssicherheit<br>(ISB)</td>
+                  <td>erfüllt</td>
+                  <td>Alle Dokumente und Prozesse werden einmal<br>jährlich einem internen Audit unterzogen. Der
+                    ISB<br>hat
+                    dafür die entsprechende fachliche<br>Weisungsbefugnis für die Mitarbeiter, in
+                    deren<br>Verantwortungsbereich
+                    einzelne Dokumente und<br>Prozesse fallen.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <h2 data-heading="Lektion 7 – Risikoanalyse">Lektion 7 – Risikoanalyse</h2>
     <hr>
-    <h3 data-heading="48. Wann führen Sie eine Risikoanalyse durch?">48. Wann führen Sie eine Risikoanalyse durch?</h3>
-    <p>eine Risikoanalyse sollte für folgende Zielobjekte erfolgen:</p>
-    <ul>
-      <li>die einen hohen oder sehr hohen Schutzbedarf in mindestens einem der drei Grundwerte Vertraulichkeit,
-        Integrität oder Verfügbarkeit haben</li>
-      <li>für die es keinen passenden IT-Grundschutz-Baustein gibt</li>
-      <li>die in Einsatzszenarien betrieben werden, die für den IT-Grundschutz untypisch sind.</li>
-    </ul>
-    <h3 data-heading="49. Nennen Sie mögliche Richtlinien zum Umgang mit Risiken!">49. Nennen Sie mögliche Richtlinien
-      zum Umgang mit Risiken!</h3>
-    <p>Das grundlegende Verfahren zur Untersuchung von Sicherheitsgefährdungen und deren<br>
-      Auswirkungen ist eine Risikoanalyse. Der <strong>BSI-Standard 200-3</strong>: Risikomanagement bietet<br>
-      hierfür eine effiziente Methodik.</p>
-    <h3
-      data-heading="50. Was verstehen Sie unter Zielobjekte und wie kann eine geeignete Priorisierung durchgeführt werden!">
-      50. Was verstehen Sie unter Zielobjekte und wie kann eine geeignete Priorisierung durchgeführt werden!</h3>
-    <p>Zielobjekte sind Objekte, für die ein Schutzbedarf festgestellt werden soll. Ihnen<br>
-      zugrunde sollten passsende IT-Grundschutzbausteine liegen.<br>
-      Ausgehend von der Eintrittshäufigkeit und der Schadenshöhe kann eine Priorisierung<br>
-      wie folgt aussehen:<br>
-      <img alt="img_49.png" src="src/img_49.png" class="img-fluid d-block mx-auto"><br>
-      Risiken der Kategorie „gering“ werden grundsätzlich pauschal akzeptiert aber weiter<br>
-      beobachtet. Risiken der Kategorien „mittel“, „hoch“ und „sehr hoch“ werden in der<br>
-      Risikobehandlung mit eingebunden
-    </p>
-    <h3 data-heading="51. Was sind elementare Gefährdungen? Nennen Sie 10 Stück!">51. Was sind elementare Gefährdungen?
-      Nennen Sie 10 Stück!</h3>
-    <p>Elementaren Gefährdungen erleichtert eine strukturierte Risikobeurteilung. Diese<br>
-      können für die Risikoanalyse herangezogen werden,</p>
-    <ul>
-      <li>Feuer</li>
-      <li>Naturkatastrophen</li>
-      <li>Ausfall oder Störung von Versorgungsnetzen</li>
-      <li>Abhören</li>
-      <li>Fehlplanung oder fehlende Anpassung</li>
-      <li>Unbefugtes Eindringen in IT-Systeme</li>
-      <li>Fehlfunktion von Geräten oder Systemen</li>
-      <li>Fehlerhafte Nutzung oder Administration von Geräten oder Systemen</li>
-      <li>Personalausfall</li>
-      <li>Schadprogramme</li>
-    </ul>
-    <h3 data-heading="52. Wie finden Sie zusätzliche Gefährdungen?">52. Wie finden Sie zusätzliche Gefährdungen?</h3>
-    <p>Zum Beispiel durch moderierte Workshops.</p>
-    <h3 data-heading="53. Aus was ergibt sich die Höhe eines Risikos?">53. Aus was ergibt sich die Höhe eines Risikos?
-    </h3>
-    <p>Die Risikohöhe ergibt sich aus der Kombination aus der Häufigkeit einer Gefährdung<br>
-      und der potenziellen Schadensauswirkung. Ein Risiko steigt mit der Häufigkeit der<br>
-      Gefährdung und der Höhe des möglichen Schadens. Umgekehrt sinkt das Risiko, wenn<br>
-      die Gefährdung weniger häufig auftritt oder der potenzielle Schaden geringer ist.</p>
-    <h3 data-heading="54. Klassifizieren Sie die Häufigkeit von Risiken und Schadensauswirkungen!">54. Klassifizieren
-      Sie die Häufigkeit von Risiken und Schadensauswirkungen!</h3>
-    <p><strong>Selten</strong>: Das Ereignis könnte nach heutigem Kenntnisstand höchstens alle fünf Jahre auftreten.<br>
-      <strong>Mittel</strong>: Das Ereignis tritt einmal alle fünf Jahre bis einmal im Jahr ein.<br>
-      <strong>Häufig</strong>: Das Ereignis tritt einmal im Jahr bis einmal pro Monat ein.<br>
-      <strong>Sehr häufig</strong>: Das Ereignis tritt mehrmals im Monat ein.
-    </p>
-    <h3 data-heading="55. Wie können Risiken bewertet werden?">55. Wie können Risiken bewertet werden?</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Risikobewertung</th>
-          <th>Beschreibung</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>vernachlässigbar</strong></td>
-          <td>Die Schadensauswirkungen sind gering und können vernachlässigt werden.</td>
-        </tr>
-        <tr>
-          <td><strong>begrenzt</strong></td>
-          <td>Die Schadensauswirkungen sind begrenzt und überschaubar.</td>
-        </tr>
-        <tr>
-          <td><strong>beträchtlich</strong></td>
-          <td>Die Schadensauswirkungen können beträchtlich sein.</td>
-        </tr>
-        <tr>
-          <td><strong>existenzbedrohend</strong></td>
-          <td>Die Schadensauswirkungen können ein existenziell bedrohliches,<br>katastrophales Ausmaß annehmen.</td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 data-heading="56. Illustrieren Sie eine Risikomatrix anhand eines Beispiels!">56. Illustrieren Sie eine
-      Risikomatrix anhand eines Beispiels!</h3>
-    <p>Das Risiko besteht darin, dass aufgrund des Ausfalls eines Servers die Daten auf einen<br>
-      anderen Server migriert werden müssen, ohne Verschlüsselung aus Performance-<br>
-      Gründen.<br>
-      Die Migration erfolgt in einem separaten Netzwerk, auf das nur bestimmte<br>
-      Administratoren Zugriff haben. Daher wird die Eintrittshäufigkeit als selten eingestuft.<br>
-      Die zu migrierenden Daten sind äußerst sensible Geschäftsdaten, weshalb das Risiko<br>
-      als beträchtlich betrachtet wird.<br>
-      Aus dieser Bewertung ergibt sich ein insgesamt mittleres Risiko.<br>
-      <img alt="img_56.png" src="src/img_56.png" class="img-fluid d-block mx-auto">
-    </p>
-    <h3 data-heading="57. Wie können Risiken behandelt werden? Beschreiben Sie hierfür das Beispiel „Abhören“!">57. Wie
-      können Risiken behandelt werden? Beschreiben Sie hierfür das Beispiel „Abhören“!</h3>
-    <p><img alt="img_57.png" src="src/img_57.png" class="img-fluid d-block mx-auto"><br>
-      Grundsätzlich vier Möglichkeiten mit Risiken umzugehen:</p>
-    <ul>
-      <li><strong>Risikovermeidung</strong> durch Geschäftsprozessumstrukturierung:
-        <ul>
-          <li>Der Informationsverbund wird so umgestaltet, dass die Gefährdung nicht mehr wirksam werden kann, wenn der
-            Aufwand für Gegenmaßnahmen zu hoch ist.</li>
-        </ul>
-      </li>
-      <li><strong>Risikoreduktion</strong> durch zusätzliche Sicherheitsmaßnahmen:
-        <ul>
-          <li>Durch hochwertigere Sicherheitsmaßnahmen wird das Risiko verringert. Hinweise für geeignete Maßnahmen
-            finden sich im IT-Grundschutz-Kompendium und anderen Quellen.</li>
-        </ul>
-      </li>
-      <li><strong>Risikotransfer:</strong>
-        <ul>
-          <li>Risiken werden durch Versicherungen oder Auslagerung an externe Dienstleister verlagert, um einen
-            finanziellen Schaden auf Dritte zu übertragen. Die Vertragsgestaltung ist dabei entscheidend.</li>
-        </ul>
-      </li>
-      <li><strong>Risikoakzeptanz</strong>:
-        <ul>
-          <li>Risiken werden akzeptiert, wenn sie unter speziellen Bedingungen unwahrscheinlich sind, keine effektiven
-            Gegenmaßnahmen verfügbar sind oder der Aufwand für Schutzmaßnahmen unverhältnismäßig hoch ist.</li>
-        </ul>
-      </li>
-    </ul>
-    <table>
-      <thead>
-        <tr>
-          <th>Gefährdung</th>
-          <th>Risikokategorie</th>
-          <th>Risikobehandlungsoptionen</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>G 0.15</strong> Abhören</td>
-          <td>Mittel</td>
-          <td><strong>Risikoakzeptanz</strong> (Risikoübernahme ohne<br>zusätzliche Sicherheitsmaßnahme)<br>Auf das
-            Live-Migration-Netz dürfen nur befugte<br>Administratoren zugreifen. Diesen<br>wird vertraut. Das bestehende
-            Restrisiko wird von<br>der <strong>Example GmbH</strong> als<br>vertretbar eingeschätzt und übernommen</td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 data-heading="58. Wie können Sie ein Sicherheitskonzept konsolidieren?">58. Wie können Sie ein
-      Sicherheitskonzept konsolidieren?</h3>
-    <p>Nachdem unzureichend erfüllte Anforderungen aus dem IT-Grundschutz-Check und<br>
-      eventuellen Risikoanalysen identifiziert wurden, werden Maßnahmen zur Schließung<br>
-      dieser Sicherheitslücken festgelegt. Dabei werden auch die Maßnahmen im<br>
-      Zusammenhang betrachtet, um überflüssige zu streichen und verbleibende zu<br>
-      konkretisieren und anzupassen. Ziel ist es, den Realisierungsaufwand auf das<br>
-      notwendige Maß zu begrenzen und eine zugeschnittene Liste von Maßnahmen zu<br>
-      erhalten. Die Dokumentation der Entscheidungsgründe erleichtert die<br>
-      Nachvollziehbarkeit.</p>
+
+    <div class="accordion" id="AccL7">
+      <div class="accordion-item">
+        <h3 data-heading="48. Wann führen Sie eine Risikoanalyse durch?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q48"
+            aria-expanded="false" aria-controls="q48">
+            48. Wann führen Sie eine Risikoanalyse durch?
+          </button>
+        </h3>
+        <div id="q48" class="accordion-collapse collapse" data-bs-parent="#AccL7">
+          <div class="accordion-body">
+            <p>eine Risikoanalyse sollte für folgende Zielobjekte erfolgen:</p>
+            <ul>
+              <li>die einen hohen oder sehr hohen Schutzbedarf in mindestens einem der drei Grundwerte Vertraulichkeit,
+                Integrität oder Verfügbarkeit haben</li>
+              <li>für die es keinen passenden IT-Grundschutz-Baustein gibt</li>
+              <li>die in Einsatzszenarien betrieben werden, die für den IT-Grundschutz untypisch sind.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="49. Nennen Sie mögliche Richtlinien zum Umgang mit Risiken!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q49"
+            aria-expanded="false" aria-controls="q49">
+            49. Nennen Sie mögliche
+            Richtlinien
+            zum Umgang mit Risiken!
+          </button>
+        </h3>
+        <div id="q49" class="accordion-collapse collapse" data-bs-parent="#AccL7">
+          <div class="accordion-body">
+            <p>Das grundlegende Verfahren zur Untersuchung von Sicherheitsgefährdungen und deren<br>
+              Auswirkungen ist eine Risikoanalyse. Der <strong>BSI-Standard 200-3</strong>: Risikomanagement bietet<br>
+              hierfür eine effiziente Methodik.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3
+          data-heading="50. Was verstehen Sie unter Zielobjekte und wie kann eine geeignete Priorisierung durchgeführt werden!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q50"
+            aria-expanded="false" aria-controls="q50">
+            50. Was verstehen Sie unter Zielobjekte und wie kann eine geeignete Priorisierung durchgeführt werden!
+          </button>
+        </h3>
+        <div id="q50" class="accordion-collapse collapse" data-bs-parent="#AccL7">
+          <div class="accordion-body">
+            <p>Zielobjekte sind Objekte, für die ein Schutzbedarf festgestellt werden soll. Ihnen<br>
+              zugrunde sollten passsende IT-Grundschutzbausteine liegen.<br>
+              Ausgehend von der Eintrittshäufigkeit und der Schadenshöhe kann eine Priorisierung<br>
+              wie folgt aussehen:<br>
+              <img alt="img_50.png" src="src/img_50.png" class="img-fluid d-block mx-auto"><br>
+              Risiken der Kategorie „gering“ werden grundsätzlich pauschal akzeptiert aber weiter<br>
+              beobachtet. Risiken der Kategorien „mittel“, „hoch“ und „sehr hoch“ werden in der<br>
+              Risikobehandlung mit eingebunden
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="51. Was sind elementare Gefährdungen? Nennen Sie 10 Stück!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q51"
+            aria-expanded="false" aria-controls="q51">
+            51. Was sind elementare
+            Gefährdungen?
+            Nennen Sie 10 Stück!
+          </button>
+        </h3>
+        <div id="q51" class="accordion-collapse collapse" data-bs-parent="#AccL7">
+          <div class="accordion-body">
+            <p>Elementaren Gefährdungen erleichtert eine strukturierte Risikobeurteilung. Diese<br>
+              können für die Risikoanalyse herangezogen werden,</p>
+            <ul>
+              <li>Feuer</li>
+              <li>Naturkatastrophen</li>
+              <li>Ausfall oder Störung von Versorgungsnetzen</li>
+              <li>Abhören</li>
+              <li>Fehlplanung oder fehlende Anpassung</li>
+              <li>Unbefugtes Eindringen in IT-Systeme</li>
+              <li>Fehlfunktion von Geräten oder Systemen</li>
+              <li>Fehlerhafte Nutzung oder Administration von Geräten oder Systemen</li>
+              <li>Personalausfall</li>
+              <li>Schadprogramme</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="52. Wie finden Sie zusätzliche Gefährdungen?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q52"
+            aria-expanded="false" aria-controls="q52">
+            52. Wie finden Sie zusätzliche Gefährdungen?
+          </button>
+        </h3>
+        <div id="q52" class="accordion-collapse collapse" data-bs-parent="#AccL7">
+          <div class="accordion-body">
+            <p>Zum Beispiel durch moderierte Workshops.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="53. Aus was ergibt sich die Höhe eines Risikos?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q53"
+            aria-expanded="false" aria-controls="q53">
+            53. Aus was ergibt sich die Höhe eines
+            Risikos?
+          </button>
+        </h3>
+        <div id="q53" class="accordion-collapse collapse" data-bs-parent="#AccL7">
+          <div class="accordion-body">
+            <p>Die Risikohöhe ergibt sich aus der Kombination aus der Häufigkeit einer Gefährdung<br>
+              und der potenziellen Schadensauswirkung. Ein Risiko steigt mit der Häufigkeit der<br>
+              Gefährdung und der Höhe des möglichen Schadens. Umgekehrt sinkt das Risiko, wenn<br>
+              die Gefährdung weniger häufig auftritt oder der potenzielle Schaden geringer ist.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="54. Klassifizieren Sie die Häufigkeit von Risiken und Schadensauswirkungen!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q54"
+            aria-expanded="false" aria-controls="q54">
+            54.
+            Klassifizieren
+            Sie die Häufigkeit von Risiken und Schadensauswirkungen!
+          </button>
+        </h3>
+        <div id="q54" class="accordion-collapse collapse" data-bs-parent="#AccL7">
+          <div class="accordion-body">
+            <p><strong>Selten</strong>: Das Ereignis könnte nach heutigem Kenntnisstand höchstens alle fünf Jahre
+              auftreten.<br>
+              <strong>Mittel</strong>: Das Ereignis tritt einmal alle fünf Jahre bis einmal im Jahr ein.<br>
+              <strong>Häufig</strong>: Das Ereignis tritt einmal im Jahr bis einmal pro Monat ein.<br>
+              <strong>Sehr häufig</strong>: Das Ereignis tritt mehrmals im Monat ein.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="55. Wie können Risiken bewertet werden?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q55"
+            aria-expanded="false" aria-controls="q55">
+            55. Wie können Risiken bewertet werden?
+          </button>
+        </h3>
+        <div id="q55" class="accordion-collapse collapse" data-bs-parent="#AccL7">
+          <div class="accordion-body">
+            <table>
+              <thead>
+                <tr>
+                  <th>Risikobewertung</th>
+                  <th>Beschreibung</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>vernachlässigbar</strong></td>
+                  <td>Die Schadensauswirkungen sind gering und können vernachlässigt werden.</td>
+                </tr>
+                <tr>
+                  <td><strong>begrenzt</strong></td>
+                  <td>Die Schadensauswirkungen sind begrenzt und überschaubar.</td>
+                </tr>
+                <tr>
+                  <td><strong>beträchtlich</strong></td>
+                  <td>Die Schadensauswirkungen können beträchtlich sein.</td>
+                </tr>
+                <tr>
+                  <td><strong>existenzbedrohend</strong></td>
+                  <td>Die Schadensauswirkungen können ein existenziell bedrohliches,<br>katastrophales Ausmaß annehmen.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="56. Illustrieren Sie eine Risikomatrix anhand eines Beispiels!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q56"
+            aria-expanded="false" aria-controls="q56">
+            56. Illustrieren Sie eine
+            Risikomatrix anhand eines Beispiels!
+          </button>
+        </h3>
+        <div id="q56" class="accordion-collapse collapse" data-bs-parent="#AccL7">
+          <div class="accordion-body">
+            <p>Das Risiko besteht darin, dass aufgrund des Ausfalls eines Servers die Daten auf einen<br>
+              anderen Server migriert werden müssen, ohne Verschlüsselung aus Performance-<br>
+              Gründen.<br>
+              Die Migration erfolgt in einem separaten Netzwerk, auf das nur bestimmte<br>
+              Administratoren Zugriff haben. Daher wird die Eintrittshäufigkeit als selten eingestuft.<br>
+              Die zu migrierenden Daten sind äußerst sensible Geschäftsdaten, weshalb das Risiko<br>
+              als beträchtlich betrachtet wird.<br>
+              Aus dieser Bewertung ergibt sich ein insgesamt mittleres Risiko.<br>
+              <img alt="img_56.png" src="src/img_56.png" class="img-fluid d-block mx-auto">
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="57. Wie können Risiken behandelt werden? Beschreiben Sie hierfür das Beispiel „Abhören“!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q57"
+            aria-expanded="false" aria-controls="q57">
+            57.
+            Wie
+            können Risiken behandelt werden? Beschreiben Sie hierfür das Beispiel „Abhören“!
+          </button>
+        </h3>
+        <div id="q57" class="accordion-collapse collapse" data-bs-parent="#AccL7">
+          <div class="accordion-body">
+            <p><img alt="img_57.png" src="src/img_57.png" class="img-fluid d-block mx-auto"><br>
+              Grundsätzlich vier Möglichkeiten mit Risiken umzugehen:</p>
+            <ul>
+              <li><strong>Risikovermeidung</strong> durch Geschäftsprozessumstrukturierung:
+                <ul>
+                  <li>Der Informationsverbund wird so umgestaltet, dass die Gefährdung nicht mehr wirksam werden kann,
+                    wenn
+                    der
+                    Aufwand für Gegenmaßnahmen zu hoch ist.</li>
+                </ul>
+              </li>
+              <li><strong>Risikoreduktion</strong> durch zusätzliche Sicherheitsmaßnahmen:
+                <ul>
+                  <li>Durch hochwertigere Sicherheitsmaßnahmen wird das Risiko verringert. Hinweise für geeignete
+                    Maßnahmen
+                    finden sich im IT-Grundschutz-Kompendium und anderen Quellen.</li>
+                </ul>
+              </li>
+              <li><strong>Risikotransfer:</strong>
+                <ul>
+                  <li>Risiken werden durch Versicherungen oder Auslagerung an externe Dienstleister verlagert, um einen
+                    finanziellen Schaden auf Dritte zu übertragen. Die Vertragsgestaltung ist dabei entscheidend.</li>
+                </ul>
+              </li>
+              <li><strong>Risikoakzeptanz</strong>:
+                <ul>
+                  <li>Risiken werden akzeptiert, wenn sie unter speziellen Bedingungen unwahrscheinlich sind, keine
+                    effektiven
+                    Gegenmaßnahmen verfügbar sind oder der Aufwand für Schutzmaßnahmen unverhältnismäßig hoch ist.</li>
+                </ul>
+              </li>
+            </ul>
+            <table>
+              <thead>
+                <tr>
+                  <th>Gefährdung</th>
+                  <th>Risikokategorie</th>
+                  <th>Risikobehandlungsoptionen</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>G 0.15</strong> Abhören</td>
+                  <td>Mittel</td>
+                  <td><strong>Risikoakzeptanz</strong> (Risikoübernahme ohne<br>zusätzliche Sicherheitsmaßnahme)<br>Auf
+                    das
+                    Live-Migration-Netz dürfen nur befugte<br>Administratoren zugreifen. Diesen<br>wird vertraut. Das
+                    bestehende
+                    Restrisiko wird von<br>der <strong>Example GmbH</strong> als<br>vertretbar eingeschätzt und
+                    übernommen
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="58. Wie können Sie ein Sicherheitskonzept konsolidieren?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q58"
+            aria-expanded="false" aria-controls="q58">
+            58. Wie können Sie ein
+            Sicherheitskonzept konsolidieren?
+          </button>
+        </h3>
+        <div id="q58" class="accordion-collapse collapse" data-bs-parent="#AccL7">
+          <div class="accordion-body">
+            <p>Nachdem unzureichend erfüllte Anforderungen aus dem IT-Grundschutz-Check und<br>
+              eventuellen Risikoanalysen identifiziert wurden, werden Maßnahmen zur Schließung<br>
+              dieser Sicherheitslücken festgelegt. Dabei werden auch die Maßnahmen im<br>
+              Zusammenhang betrachtet, um überflüssige zu streichen und verbleibende zu<br>
+              konkretisieren und anzupassen. Ziel ist es, den Realisierungsaufwand auf das<br>
+              notwendige Maß zu begrenzen und eine zugeschnittene Liste von Maßnahmen zu<br>
+              erhalten. Die Dokumentation der Entscheidungsgründe erleichtert die<br>
+              Nachvollziehbarkeit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <h2 data-heading="Lektion 8 - Umsetzungsplanung">Lektion 8 - Umsetzungsplanung</h2>
     <hr>
-    <h3 data-heading="59. Beschreiben Sie den Prozess der Umsetzungsplanung!">59. Beschreiben Sie den Prozess der
-      Umsetzungsplanung!</h3>
-    <p>Bei der Umsetzungsplanung geht es darum, die entstandenen Sicherheitslücken zu<br>
-      schließen.<br>
-      Maßnahmen konsolidieren: Zuerst filtert man nicht oder nur teilweise erfüllte<br>
-      Anforderungen aus den Ergebnissen des IT-Grundschutz-Checks und Risikoanalysen<br>
-      heraus. Dann prüft man, ob einige Maßnahmen überflüssig sind, ob andere konkretisiert<br>
-      werden müssen und ob sie geeignet sind, ohne Arbeitsabläufe zu beeinträchtigen oder<br>
-      die Schutzwirkung anderer Maßnahmen zu mindern.<br>
-      Kosten und Aufwand schätzen: Man berechnet die Kosten für die Umsetzung und<br>
-      präsentiert sie dem Management.<br>
-      Umsetzungsreihenfolge festlegen: Priorisiert werden Aufgaben basierend auf dem<br>
-      Schutzbedarf der Objekte.<br>
-      Verantwortlichkeit regeln: Klärung der Zuständigkeiten und Termine für die Umsetzung,<br>
-      in Absprache mit dem Management.<br>
-      Begleitende Maßnahmen planen: Schulungen und Sensibilisierung der Mitarbeiter für<br>
-      ihre Aufgaben, ohne an Investitionen zu sparen.</p>
-    <h3 data-heading="60. Beschreiben Sie den Prozess der Umsetzungsplanung anhand der regelmäßigen Datensicherung!">60.
-      Beschreiben Sie den Prozess der Umsetzungsplanung anhand der regelmäßigen Datensicherung!</h3>
-    <p><img alt="img_60_1.png" src="src/img_60_1.png" class="img-fluid d-block mx-auto"><br>
-      <img alt="img_60_2.png" src="src/img_60_2.png" class="img-fluid d-block mx-auto">
-    </p>
+
+    <div class="accordion" id="AccL8">
+      <div class="accordion-item">
+        <h3 data-heading="59. Beschreiben Sie den Prozess der Umsetzungsplanung!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q59"
+            aria-expanded="false" aria-controls="q59">
+            59. Beschreiben Sie den Prozess der
+            Umsetzungsplanung!
+          </button>
+        </h3>
+        <div id="q59" class="accordion-collapse collapse" data-bs-parent="#AccL8">
+          <div class="accordion-body">
+            <p>Bei der Umsetzungsplanung geht es darum, die entstandenen Sicherheitslücken zu<br>
+              schließen.<br>
+              Maßnahmen konsolidieren: Zuerst filtert man nicht oder nur teilweise erfüllte<br>
+              Anforderungen aus den Ergebnissen des IT-Grundschutz-Checks und Risikoanalysen<br>
+              heraus. Dann prüft man, ob einige Maßnahmen überflüssig sind, ob andere konkretisiert<br>
+              werden müssen und ob sie geeignet sind, ohne Arbeitsabläufe zu beeinträchtigen oder<br>
+              die Schutzwirkung anderer Maßnahmen zu mindern.<br>
+              Kosten und Aufwand schätzen: Man berechnet die Kosten für die Umsetzung und<br>
+              präsentiert sie dem Management.<br>
+              Umsetzungsreihenfolge festlegen: Priorisiert werden Aufgaben basierend auf dem<br>
+              Schutzbedarf der Objekte.<br>
+              Verantwortlichkeit regeln: Klärung der Zuständigkeiten und Termine für die Umsetzung,<br>
+              in Absprache mit dem Management.<br>
+              Begleitende Maßnahmen planen: Schulungen und Sensibilisierung der Mitarbeiter für<br>
+              ihre Aufgaben, ohne an Investitionen zu sparen.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3
+          data-heading="60. Beschreiben Sie den Prozess der Umsetzungsplanung anhand der regelmäßigen Datensicherung!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q60"
+            aria-expanded="false" aria-controls="q60">
+            60.
+            Beschreiben Sie den Prozess der Umsetzungsplanung anhand der regelmäßigen Datensicherung!
+          </button>
+        </h3>
+        <div id="q60" class="accordion-collapse collapse" data-bs-parent="#AccL8">
+          <div class="accordion-body">
+            <p><img alt="img_60_1.png" src="src/img_60_1.png" class="img-fluid d-block mx-auto"><br>
+              <img alt="img_60_2.png" src="src/img_60_2.png" class="img-fluid d-block mx-auto">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <h2 data-heading="Lektion 9 – Aufrechterhaltung und Verbesserung">Lektion 9 – Aufrechterhaltung und Verbesserung
     </h2>
     <hr>
-    <h3 data-heading="61. Nennen Sie Leitfragen zur Orientierung!">61. Nennen Sie Leitfragen zur Orientierung!</h3>
-    <p>Um sicherzustellen, dass die Maßnahmen des Sicherheitskonzepts immer den Anforderungen entsprechen, müssen sie
-      kontinuierlich überprüft werden.<br>
-      <img alt="img_61.png" src="src/img_61.png" class="img-fluid d-block mx-auto">
-    </p>
-    <h4 data-heading="Welche Ziele der Informationssicherheit sind aktuell **vordringlich?">Welche Ziele der
-      Informationssicherheit sind aktuell **vordringlich?</h4>
-    <p>Die Bedeutung von Sicherheitszielen kann sich im Zeitablauf verändern. So kann es wichtiger werden, die
-      Vertraulichkeit von Informationen zu schützen, wenn sich gesetzliche Rahmenbedingungen ändern oder aber die
-      Institution mit Daten arbeitet, die dies verstärkt erfordern. Alle Maßnahmen zur Erhaltung der Vertraulichkeit
-      müssen daher besonders sorgfältig geprüft werden. Eine weitere wichtige Frage ist, ob die gewählten
-      Sicherheitsmaßnahmen noch der Gefährdungslage entsprechen. Auch ist zu prüfen, ob neue technische Verfahren einen
-      effizienteren und wirksameren Schutz bieten können.</p>
-    <h4 data-heading="Wer ist verantwortlich für die Überwachung des Informationssicherheitsprozesses?">Wer ist
-      verantwortlich für die Überwachung des Informationssicherheitsprozesses?</h4>
-    <p>In komplexen Institutionen, wo der Informationssicherheitsbeauftragte (ISB) nicht alle Überprüfungen allein
-      durchführen kann, ist es wichtig, dass für verschiedene Bereiche verantwortliche Personen benannt werden. Diese
-      sollten die Sicherheitsmaßnahmen planen, umsetzen, dokumentieren und Verbesserungen steuern, wobei eine enge
-      Zusammenarbeit und Informationsaustausch mit dem ISB essentiell ist.</p>
-    <h4 data-heading="Wie häufig sind die Verfahren zu überprüfen?">Wie häufig sind die Verfahren zu überprüfen?</h4>
-    <p>Für weniger wichtige Schutzmechanismen kann eine Überprüfung seltener erfolgen als für kritische Prozesse.
-      Mindestens einmal pro Jahr muss das Sicherheitskonzept darauf überprüft werden, ob es noch effektiv ist, also den
-      Zielen der Informationssicherheit im Unternehmen oder der Behörde entspricht. Wenn es einen Sicherheitsvorfall
-      gegeben hat, sollte dies Anlass für eine zusätzliche Prüfung sein.</p>
-    <h3 data-heading="62. Wie sollte die Überprüfung stattfinden? Zeithorizont?">62. Wie sollte die Überprüfung
-      stattfinden? Zeithorizont?</h3>
-    <p>Bewährte Verfahren zur Prüfung der Informationssicherheit umfassen:</p>
-    <ul>
-      <li><strong>Checklisten</strong>&nbsp;und&nbsp;<strong>punktuelle Prüfungen</strong>&nbsp;der Netzsicherheit
-        mittels&nbsp;<strong>Penetrationstests</strong>.</li>
-      <li><strong>Umfassende Prüfungen</strong>&nbsp;der&nbsp;<strong>technischen und organisatorischen
-          Schutzmaßnahmen</strong>&nbsp;sollten in regelmäßigen Intervallen (jährlich bis maximal drei Jahre)
-        durchgeführt werden.</li>
-      <li><strong>Fallweise Prüfungen</strong>&nbsp;sind auch bei Änderungen von Geschäftsprozessen und insbesondere
-        nach Sicherheitsvorfällen sinnvoll.</li>
-    </ul>
-    <h3 data-heading="63. Was verstehen Sie unter einer Informationssicherheitsrevision?">63. Was verstehen Sie unter
-      einer Informationssicherheitsrevision?</h3>
-    <p>Die&nbsp;<strong>Informationssicherheitsrevision (IS-Revision)</strong>&nbsp;ermöglicht es, das
-      Sicherheitskonzept einer Institution gemäß einem festgelegten Verfahren von kompetenten Revisoren überprüfen zu
-      lassen. Ziel ist es zu prüfen, ob das Konzept wie beabsichtigt umgesetzt wurde und den aktuellen Anforderungen
-      entspricht. Die IS-Revision liefert belastbare Informationen über den aktuellen Zustand der Informationssicherheit
-      sowohl für die Verantwortlichen als auch für die Leitung der Institution. Es gibt verschiedene Varianten der
-      Revision, darunter&nbsp;<strong>umfassende
-        Prüfungen</strong>,&nbsp;<strong>Kurzrevisionen</strong>,&nbsp;<strong>Querschnittsrevisionen</strong>&nbsp;und&nbsp;<strong>Partialrevisionen</strong>,
-      je nach Tiefe und Umfang der Überprüfung.</p>
-    <h3 data-heading="64. Wie müssen Prüfergebnisse behandelt werden?">64. Wie müssen Prüfergebnisse behandelt werden?
-    </h3>
-    <p>Die Ergebnisse aller Überprüfungen müssen&nbsp;<strong>dokumentiert</strong>&nbsp;und
-      der&nbsp;<strong>Leitung</strong>&nbsp;mitgeteilt werden. Dabei sind Informationen über den&nbsp;<strong>Stand der
-        Umsetzung</strong>,&nbsp;<strong>Erfolge</strong>,&nbsp;<strong>Probleme</strong>&nbsp;sowie&nbsp;<strong>Risiken
-        aufgrund von Umsetzungsmängeln</strong>&nbsp;wichtig. Bei&nbsp;<strong>Abweichungen von der
-        Planung</strong>&nbsp;sollten Vorschläge erarbeitet werden, wie diese anzupassen oder die Umsetzung zu
-      korrigieren ist. Gleiches gilt für&nbsp;<strong>Vorschläge zur Verbesserung und Weiterentwicklung der
-        Sicherheitsmaßnahmen</strong>. Alle Entscheidungen hierzu, auch die&nbsp;<strong>Übernahme von Risiken durch
-        eine verzögerte Umsetzung von Maßnahmen</strong>, müssen dokumentiert werden.</p>
-    <h3 data-heading="65. Nennen Sie 3 Kennzahlen zur Informationssicherheit!">65. Nennen Sie 3 Kennzahlen zur
-      Informationssicherheit!</h3>
-    <ul>
-      <li><strong>ISMS.1 Sicherheitsmanagement</strong>
-        <ul>
-          <li>Die Anforderungen des Sicherheitsmanagements sollte die Leitungsebene regelmäßig über den Stand der
-            Informationssicherheit informieren.</li>
-        </ul>
-      </li>
-      <li><strong>APP.1.1 Office-Produkte</strong>
-        <ul>
-          <li>Neue Office-Produkte <strong>sollten</strong> vor dem Einsatz auf Kompatibilität mit etablierten
-            Arbeitsmitteln getestet werden.</li>
-        </ul>
-      </li>
-      <li><strong>SYS.1.1 Allgemeiner Server</strong>
-        <ul>
-          <li>Ablauf, Rahmenbedingungen und Anforderungen an administrative Aufgaben, sowie die Aufgabentrennungen
-            zwischen den verschiedenen Rollen der Benutzer des IT-Systems <strong>sollten</strong> in einem Benutzer-
-            und Administrationskonzept festgeschrieben werden.</li>
-        </ul>
-      </li>
-    </ul>
-    <h3 data-heading="66. Was verstehen Sie unter einem Reifegradmodell. Definieren Sie die Merkmale!">66. Was verstehen
-      Sie unter einem Reifegradmodell. Definieren Sie die Merkmale!</h3>
-    <p>Der Maßstab für die "Reife" eines ISMS oder aber auch von Teilen davon ist der Grad der <strong>Strukturierung
-        und der systematischen Steuerung</strong> eines Prozesses. Dort wo der Reifegrad niedrig ist, besteht ein
-      besonderer Handlungsbedarf.<br>
-      Folgende Tabelle zeigt ein Beispiel für die <strong>Definition von Reifegraden</strong>:<br>
-      <img alt="img_66.png" src="src/img_66.png" class="img-fluid d-block mx-auto">
-    </p>
-    <h3 data-heading="67. Für wen ist eine IT-Grundschutzzertifizierung interessant?">67. Für wen ist eine
-      IT-Grundschutzzertifizierung interessant?</h3>
-    <p>Die Zertifizierung des Managements für Informationssicherheit kann für <strong>unterschiedliche
-        Zielgruppen</strong> interessant sein, zum Beispiel für:</p>
-    <ul>
-      <li>Anbieter im E-Commerce oder E-Government, die verdeutlichen wollen, dass sie sorgfältig und sicherheitsbewusst
-        mit den Daten der Kunden und Bürger umgehen,</li>
-      <li>IT-Dienstleister, die mit einem allgemein anerkannten Maßstab die Sicherheit ihrer Dienstleistungen belegen
-        wollen,</li>
-      <li>Unternehmen und Behörden, die mit anderen Einrichtungen kooperieren wollen und Informationen über deren
-        Sicherheitsniveau wünschen.</li>
-    </ul>
-    <h3 data-heading="68. Illustrieren Sie den Zertifizierungsprozess!">68. Illustrieren Sie den Zertifizierungsprozess!
-    </h3>
-    <p>Damit der Nachweis, für die Erfüllung der Anforderungen, erbracht werden kann, ist ein Audit durch einen vom BSI
-      anerkannten und unabhängigen Auditor nötig. Dieses Audit besteht aus 2 Phasen, der Dokumentenprüfung und der
-      Umsetzungsprüfung.<br>
-      <img alt="img_68.png" src="src/img_68.png" class="img-fluid d-block mx-auto"><br>
-      <a data-tooltip-position="top"
-        aria-label="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_9_Aufrechterhaltung/Lektion_9_05/Lektion_9_05_node.html"
-        rel="noopener" class="external-link"
-        href="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_9_Aufrechterhaltung/Lektion_9_05/Lektion_9_05_node.html"
-        target="_blank">Quelle</a><br>
-      Zum weiteren Nachlesen, ist <a data-tooltip-position="top"
-        aria-label="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_9_Aufrechterhaltung/Lektion_9_05/Lektion_9_05_node.html"
-        rel="noopener" class="external-link"
-        href="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_9_Aufrechterhaltung/Lektion_9_05/Lektion_9_05_node.html"
-        target="_blank">diese Website</a> vom BSI zu empfehlen.
-    </p>
 
+    <div class="accordion" id="AccL9">
+
+      <div class="accordion-item">
+        <h3 data-heading="61. Nennen Sie Leitfragen zur Orientierung!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q61"
+            aria-expanded="false" aria-controls="q61">
+            61. Nennen Sie Leitfragen zur Orientierung!
+          </button>
+        </h3>
+        <div id="q61" class="accordion-collapse collapse" data-bs-parent="#AccL9">
+          <div class="accordion-body">
+            <div class="accordion" id="AccQ61">
+              <p>Um sicherzustellen, dass die Maßnahmen des Sicherheitskonzepts immer den Anforderungen entsprechen,
+                müssen
+                sie
+                kontinuierlich überprüft werden.<br>
+                <img alt="img_61.png" src="src/img_61.png" class="img-fluid d-block mx-auto">
+              </p>
+
+              <div class="accordion-item">
+                <h4 data-heading="Welche Ziele der Informationssicherheit sind aktuell vordringlich?">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#q61_1" aria-expanded="false" aria-controls="q61_1">
+                    Welche Ziele der
+                    Informationssicherheit sind aktuell vordringlich?
+                  </button>
+                </h4>
+                <div id="q61_1" class="accordion-collapse collapse" data-bs-parent="#AccQ61">
+                  <div class="accordion-body">
+                    <p>Die Bedeutung von Sicherheitszielen kann sich im Zeitablauf verändern. So kann es wichtiger
+                      werden,
+                      die
+                      Vertraulichkeit von Informationen zu schützen, wenn sich gesetzliche Rahmenbedingungen ändern oder
+                      aber
+                      die
+                      Institution mit Daten arbeitet, die dies verstärkt erfordern. Alle Maßnahmen zur Erhaltung der
+                      Vertraulichkeit
+                      müssen daher besonders sorgfältig geprüft werden. Eine weitere wichtige Frage ist, ob die
+                      gewählten
+                      Sicherheitsmaßnahmen noch der Gefährdungslage entsprechen. Auch ist zu prüfen, ob neue technische
+                      Verfahren
+                      einen
+                      effizienteren und wirksameren Schutz bieten können.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h4 data-heading="Wer ist verantwortlich für die Überwachung des Informationssicherheitsprozesses?">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#q61_2" aria-expanded="false" aria-controls="q61_2">
+                    Wer
+                    ist
+                    verantwortlich für die Überwachung des Informationssicherheitsprozesses?
+                  </button>
+                </h4>
+                <div id="q61_2" class="accordion-collapse collapse" data-bs-parent="#AccQ61">
+                  <div class="accordion-body">
+                    <p>In komplexen Institutionen, wo der Informationssicherheitsbeauftragte (ISB) nicht alle
+                      Überprüfungen
+                      allein
+                      durchführen kann, ist es wichtig, dass für verschiedene Bereiche verantwortliche Personen benannt
+                      werden.
+                      Diese
+                      sollten die Sicherheitsmaßnahmen planen, umsetzen, dokumentieren und Verbesserungen steuern, wobei
+                      eine
+                      enge
+                      Zusammenarbeit und Informationsaustausch mit dem ISB essentiell ist.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h4 data-heading="Wie häufig sind die Verfahren zu überprüfen?">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#q61_3" aria-expanded="false" aria-controls="q61_3">
+                    Wie häufig sind die Verfahren zu
+                    überprüfen?
+                  </button>
+                </h4>
+                <div id="q61_3" class="accordion-collapse collapse" data-bs-parent="#AccQ61">
+                  <div class="accordion-body">
+                    <p>Für weniger wichtige Schutzmechanismen kann eine Überprüfung seltener erfolgen als für kritische
+                      Prozesse.
+                      Mindestens einmal pro Jahr muss das Sicherheitskonzept darauf überprüft werden, ob es noch
+                      effektiv
+                      ist,
+                      also
+                      den
+                      Zielen der Informationssicherheit im Unternehmen oder der Behörde entspricht. Wenn es einen
+                      Sicherheitsvorfall
+                      gegeben hat, sollte dies Anlass für eine zusätzliche Prüfung sein.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="62. Wie sollte die Überprüfung stattfinden? Zeithorizont?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q62"
+            aria-expanded="false" aria-controls="q62">
+            62. Wie sollte die Überprüfung
+            stattfinden? Zeithorizont?
+          </button>
+        </h3>
+        <div id="q62" class="accordion-collapse collapse" data-bs-parent="#AccL9">
+          <div class="accordion-body">
+            <p>Bewährte Verfahren zur Prüfung der Informationssicherheit umfassen:</p>
+            <ul>
+              <li><strong>Checklisten</strong>&nbsp;und&nbsp;<strong>punktuelle Prüfungen</strong>&nbsp;der
+                Netzsicherheit
+                mittels&nbsp;<strong>Penetrationstests</strong>.</li>
+              <li><strong>Umfassende Prüfungen</strong>&nbsp;der&nbsp;<strong>technischen und organisatorischen
+                  Schutzmaßnahmen</strong>&nbsp;sollten in regelmäßigen Intervallen (jährlich bis maximal drei Jahre)
+                durchgeführt werden.</li>
+              <li><strong>Fallweise Prüfungen</strong>&nbsp;sind auch bei Änderungen von Geschäftsprozessen und
+                insbesondere
+                nach Sicherheitsvorfällen sinnvoll.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="63. Was verstehen Sie unter einer Informationssicherheitsrevision?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q63"
+            aria-expanded="false" aria-controls="q63">
+            63. Was verstehen Sie unter
+            einer Informationssicherheitsrevision?
+          </button>
+        </h3>
+        <div id="q63" class="accordion-collapse collapse" data-bs-parent="#AccL9">
+          <div class="accordion-body">
+            <p>Die&nbsp;<strong>Informationssicherheitsrevision (IS-Revision)</strong>&nbsp;ermöglicht es, das
+              Sicherheitskonzept einer Institution gemäß einem festgelegten Verfahren von kompetenten Revisoren
+              überprüfen
+              zu
+              lassen. Ziel ist es zu prüfen, ob das Konzept wie beabsichtigt umgesetzt wurde und den aktuellen
+              Anforderungen
+              entspricht. Die IS-Revision liefert belastbare Informationen über den aktuellen Zustand der
+              Informationssicherheit
+              sowohl für die Verantwortlichen als auch für die Leitung der Institution. Es gibt verschiedene Varianten
+              der
+              Revision, darunter&nbsp;<strong>umfassende
+                Prüfungen</strong>,&nbsp;<strong>Kurzrevisionen</strong>,&nbsp;<strong>Querschnittsrevisionen</strong>&nbsp;und&nbsp;<strong>Partialrevisionen</strong>,
+              je nach Tiefe und Umfang der Überprüfung.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="64. Wie müssen Prüfergebnisse behandelt werden?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q64"
+            aria-expanded="false" aria-controls="q64">
+            64. Wie müssen Prüfergebnisse behandelt
+            werden?
+          </button>
+        </h3>
+        <div id="q64" class="accordion-collapse collapse" data-bs-parent="#AccL9">
+          <div class="accordion-body">
+            <p>Die Ergebnisse aller Überprüfungen müssen&nbsp;<strong>dokumentiert</strong>&nbsp;und
+              der&nbsp;<strong>Leitung</strong>&nbsp;mitgeteilt werden. Dabei sind Informationen über
+              den&nbsp;<strong>Stand
+                der
+                Umsetzung</strong>,&nbsp;<strong>Erfolge</strong>,&nbsp;<strong>Probleme</strong>&nbsp;sowie&nbsp;<strong>Risiken
+                aufgrund von Umsetzungsmängeln</strong>&nbsp;wichtig. Bei&nbsp;<strong>Abweichungen von der
+                Planung</strong>&nbsp;sollten Vorschläge erarbeitet werden, wie diese anzupassen oder die Umsetzung zu
+              korrigieren ist. Gleiches gilt für&nbsp;<strong>Vorschläge zur Verbesserung und Weiterentwicklung der
+                Sicherheitsmaßnahmen</strong>. Alle Entscheidungen hierzu, auch die&nbsp;<strong>Übernahme von Risiken
+                durch
+                eine verzögerte Umsetzung von Maßnahmen</strong>, müssen dokumentiert werden.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="65. Nennen Sie 3 Kennzahlen zur Informationssicherheit!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q65"
+            aria-expanded="false" aria-controls="q65">
+            65. Nennen Sie 3 Kennzahlen zur
+            Informationssicherheit!
+          </button>
+        </h3>
+        <div id="q65" class="accordion-collapse collapse" data-bs-parent="#AccL9">
+          <div class="accordion-body">
+            <ul>
+              <li><strong>ISMS.1 Sicherheitsmanagement</strong>
+                <ul>
+                  <li>Die Anforderungen des Sicherheitsmanagements sollte die Leitungsebene regelmäßig über den Stand
+                    der
+                    Informationssicherheit informieren.</li>
+                </ul>
+              </li>
+              <li><strong>APP.1.1 Office-Produkte</strong>
+                <ul>
+                  <li>Neue Office-Produkte <strong>sollten</strong> vor dem Einsatz auf Kompatibilität mit etablierten
+                    Arbeitsmitteln getestet werden.</li>
+                </ul>
+              </li>
+              <li><strong>SYS.1.1 Allgemeiner Server</strong>
+                <ul>
+                  <li>Ablauf, Rahmenbedingungen und Anforderungen an administrative Aufgaben, sowie die
+                    Aufgabentrennungen
+                    zwischen den verschiedenen Rollen der Benutzer des IT-Systems <strong>sollten</strong> in einem
+                    Benutzer-
+                    und Administrationskonzept festgeschrieben werden.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="66. Was verstehen Sie unter einem Reifegradmodell. Definieren Sie die Merkmale!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q66"
+            aria-expanded="false" aria-controls="q66">
+            66. Was
+            verstehen
+            Sie unter einem Reifegradmodell. Definieren Sie die Merkmale!
+          </button>
+        </h3>
+        <div id="q66" class="accordion-collapse collapse" data-bs-parent="#AccL9">
+          <div class="accordion-body">
+            <p>Der Maßstab für die "Reife" eines ISMS oder aber auch von Teilen davon ist der Grad der
+              <strong>Strukturierung
+                und der systematischen Steuerung</strong> eines Prozesses. Dort wo der Reifegrad niedrig ist, besteht
+              ein
+              besonderer Handlungsbedarf.<br>
+              Folgende Tabelle zeigt ein Beispiel für die <strong>Definition von Reifegraden</strong>:<br>
+              <img alt="img_66.png" src="src/img_66.png" class="img-fluid d-block mx-auto">
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="67. Für wen ist eine IT-Grundschutzzertifizierung interessant?">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q67"
+            aria-expanded="false" aria-controls="q67">
+            67. Für wen ist eine
+            IT-Grundschutzzertifizierung interessant?
+          </button>
+        </h3>
+        <div id="q67" class="accordion-collapse collapse" data-bs-parent="#AccL9">
+          <div class="accordion-body">
+            <p>Die Zertifizierung des Managements für Informationssicherheit kann für <strong>unterschiedliche
+                Zielgruppen</strong> interessant sein, zum Beispiel für:</p>
+            <ul>
+              <li>Anbieter im E-Commerce oder E-Government, die verdeutlichen wollen, dass sie sorgfältig und
+                sicherheitsbewusst
+                mit den Daten der Kunden und Bürger umgehen,</li>
+              <li>IT-Dienstleister, die mit einem allgemein anerkannten Maßstab die Sicherheit ihrer Dienstleistungen
+                belegen
+                wollen,</li>
+              <li>Unternehmen und Behörden, die mit anderen Einrichtungen kooperieren wollen und Informationen über
+                deren
+                Sicherheitsniveau wünschen.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 data-heading="68. Illustrieren Sie den Zertifizierungsprozess!">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q68"
+            aria-expanded="false" aria-controls="q68">
+            68. Illustrieren Sie den
+            Zertifizierungsprozess!
+          </button>
+        </h3>
+        <div id="q68" class="accordion-collapse collapse" data-bs-parent="#AccL9">
+          <div class="accordion-body">
+            <p>Damit der Nachweis, für die Erfüllung der Anforderungen, erbracht werden kann, ist ein Audit durch einen
+              vom
+              BSI
+              anerkannten und unabhängigen Auditor nötig. Dieses Audit besteht aus 2 Phasen, der Dokumentenprüfung und
+              der
+              Umsetzungsprüfung.<br>
+              <img alt="img_68.png" src="src/img_68.png" class="img-fluid d-block mx-auto"><br>
+              <a data-tooltip-position="top"
+                aria-label="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_9_Aufrechterhaltung/Lektion_9_05/Lektion_9_05_node.html"
+                rel="noopener" class="external-link"
+                href="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_9_Aufrechterhaltung/Lektion_9_05/Lektion_9_05_node.html"
+                target="_blank">Quelle</a><br>
+              Zum weiteren Nachlesen, ist <a data-tooltip-position="top"
+                aria-label="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_9_Aufrechterhaltung/Lektion_9_05/Lektion_9_05_node.html"
+                rel="noopener" class="external-link"
+                href="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/Zertifizierte-Informationssicherheit/IT-Grundschutzschulung/Online-Kurs-IT-Grundschutz/Lektion_9_Aufrechterhaltung/Lektion_9_05/Lektion_9_05_node.html"
+                target="_blank">diese Website</a> vom BSI zu empfehlen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
