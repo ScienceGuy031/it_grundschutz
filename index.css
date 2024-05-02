@@ -13,3 +13,8 @@ h2 {
 h2:nth-of-type(1) {
   padding-top: 0;
 }
+
+#searchInput,
+#searchButton {
+  margin-bottom: 2vh;
+}

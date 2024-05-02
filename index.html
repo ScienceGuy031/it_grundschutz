@@ -20,13 +20,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 searchExclude">
+          <li><a class="nav-link" href="#search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Lektionen
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu searchExclude" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#L1">Lektion 1 - Einstieg</a></li>
               <li><a class="dropdown-item" href="#L2">Lektion 2 - Sicherheitsmanagement</a></li>
               <li><a class="dropdown-item" href="#L3">Lektion 3 - Strukturanalyse</a></li>
@@ -45,10 +46,6 @@
             </ul>
           </li>
         </ul>
-        <!--<form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>-->
       </div>
     </div>
   </nav>
@@ -57,6 +54,19 @@
   <div class="container-fluid text-bg-dark" id="root">
     <div id="introduction" class="pt-10 bp-10 text-center">
       <h1 data-heading="IT-Grundschutz">IT-Grundschutz</h1>
+    </div>
+    <hr>
+
+    <h2>Suche</h2>
+    <hr>
+    <div id="search">
+      <form class="d-flex pt-2">
+        <input id="searchInput" class="form-control me-2" type="search" placeholder="Suche" aria-label="Search">
+        <button id="searchButton" class="btn btn-outline-success" type="button">Suchen</button>
+      </form>
+    </div>
+    <div id="searchResults">
+
     </div>
     <hr>
 
@@ -1909,7 +1919,8 @@
       </div>
     </div>
 
-    <h2 id="L9" data-heading="Lektion 9 – Aufrechterhaltung und Verbesserung">Lektion 9 – Aufrechterhaltung und Verbesserung
+    <h2 id="L9" data-heading="Lektion 9 – Aufrechterhaltung und Verbesserung">Lektion 9 – Aufrechterhaltung und
+      Verbesserung
     </h2>
     <hr>
 
@@ -2213,7 +2224,7 @@
     </div>
     <hr>
     <footer class="blockquote-footer p-2 text-end">
-      
+
       Autoren: Daniel Eckstein, Benjamin Kurtisi und Daniel Obyn
     </footer>
 
