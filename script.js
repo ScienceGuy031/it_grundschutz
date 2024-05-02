@@ -3,26 +3,25 @@
 document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("searchInput");
   const searchResults = document.getElementById("searchResults");
+  const searchableElements = Array.from(document.body.getElementsByTagName("p"));
+  const searchableUls = Array.from(document.body.getElementsByTagName("ul"));
+  const searchableH2s = Array.from(document.body.getElementsByTagName("h2"));
+  searchableUls.forEach((el) => {
+    if (!el.classList.contains("searchExclude")) {
+      searchableElements.push(el);
+    }
+  });
+  searchableH2s.forEach(el => searchableElements.push(el));
+
+  for (let i = 0; i < searchableElements.length; i++) {
+    if (!searchableElements[i].id) {
+      searchableElements[i].id = "searchIndex" + i;
+    }
+  }
 
   searchInput.addEventListener("input", function () {
     const searchTerm = searchInput.value.toLowerCase();
     const results = [];
-    const searchableElements = Array.from(document.body.getElementsByTagName("p"));
-    const searchableUls = Array.from(document.body.getElementsByTagName("ul"));
-    const searchableH2s = Array.from(document.body.getElementsByTagName("h2"));
-    searchableUls.forEach((el) => {
-      if (!el.classList.contains("searchExclude")) {
-        searchableElements.push(el);
-      }
-    });
-    searchableH2s.forEach(el => searchableElements.push(el));
-
-    for (let i = 0; i < searchableElements.length; i++) {
-      if (!searchableElements[i].id) {
-        searchableElements[i].id = "searchIndex" + i;
-      }
-    }
-
 
     Array.from(searchableElements).forEach((element) => {
       if (
@@ -33,14 +32,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     renderResults(results);
 
-    if (searchTerm == ""){
-        searchResults.innerHTML= "";
+    if (searchTerm == "") {
+      searchResults.innerHTML = "";
     }
   });
 
   function renderResults(results) {
     searchResults.innerHTML = "";
     results.forEach((result) => {
+      console.log(result);
       const resultLink = document.createElement("a");
       resultLink.href = "#" + result.id;
       const resultElement = document.createElement("div");
