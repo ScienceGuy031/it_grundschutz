@@ -9,9 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const results = [];
     const searchableElements = Array.from(document.body.getElementsByTagName("p"));
     const searchableUls = Array.from(document.body.getElementsByTagName("ul"));
+    const searchableH2s = Array.from(document.body.getElementsByTagName("h2"));
     searchableUls.forEach((el) => {
-      searchableElements.push(el);
+      if (!el.classList.contains("searchExclude")) {
+        searchableElements.push(el);
+      }
     });
+    searchableH2s.forEach(el => searchableElements.push(el));
 
     for (let i = 0; i < searchableElements.length; i++) {
       if (!searchableElements[i].id) {
@@ -22,9 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     Array.from(searchableElements).forEach((element) => {
       if (
-        element.textContent.toLowerCase().includes(searchTerm) &&
-        !element.closest("header")
-      ) {
+        element.textContent.toLowerCase().includes(searchTerm)) {
         results.push(element);
       }
     });
@@ -42,6 +44,11 @@ document.addEventListener("DOMContentLoaded", function () {
       const resultLink = document.createElement("a");
       resultLink.href = "#" + result.id;
       const resultElement = document.createElement("div");
+      resultElement.classList.add("card");
+      resultElement.classList.add("card-body");
+      resultElement.classList.add("btn");
+      resultElement.classList.add("btn-info");
+      resultElement.classList.add("text-start");
       const resultText = document.createElement("p");
       resultText.textContent = result.textContent.slice(0, 200) + "...";
       resultElement.classList.add("searchresult");
