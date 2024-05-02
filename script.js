@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
   function renderResults(results) {
     searchResults.innerHTML = "";
     results.forEach((result) => {
-      console.log(result);
       const resultLink = document.createElement("a");
       resultLink.href = "#" + result.id;
       const resultElement = document.createElement("div");
@@ -54,6 +53,15 @@ document.addEventListener("DOMContentLoaded", function () {
       resultElement.classList.add("searchresult");
       resultElement.classList.add("title");
       resultElement.appendChild(resultText);
+      resultElement.addEventListener("click", function(e){
+        let accButton;
+        let accordionItem = result.closest(".accordion-item");
+        if (accordionItem != null){
+          accButton = accordionItem.querySelector("button");
+        }
+        if (accButton != null && accButton.classList.contains("collapsed"))
+          accButton.click();
+      });
       resultLink.appendChild(resultElement);
       searchResults.appendChild(resultLink);
     });
