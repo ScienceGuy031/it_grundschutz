@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (accordionItemParent != null)
         {
           outerAccButton = accordionItemParent.querySelector("button");
-          if (outerAccButton != null)
+          if (outerAccButton != null && outerAccButton.classList.contains("collapsed"))
           {
             outerAccButton.click();
           }
