@@ -6,12 +6,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchableElements = Array.from(document.body.getElementsByTagName("p"));
   const searchableUls = Array.from(document.body.getElementsByTagName("ul"));
   const searchableH2s = Array.from(document.body.getElementsByTagName("h2"));
+  const searchableH3s = Array.from(document.body.getElementsByTagName("h3"));
   searchableUls.forEach((el) => {
     if (!el.classList.contains("searchExclude")) {
       searchableElements.push(el);
     }
   });
   searchableH2s.forEach(el => searchableElements.push(el));
+  searchableH3s.forEach(el => searchableElements.push(el));
 
   for (let i = 0; i < searchableElements.length; i++) {
     if (!searchableElements[i].id) {
@@ -62,6 +64,17 @@ document.addEventListener("DOMContentLoaded", function () {
         if (accButton != null && accButton.classList.contains("collapsed"))
           accButton.click();
       });
+
+      let parentAccItem = result.closest(".accordion-item");
+      let parentH3;
+      if (parentAccItem != null)
+        parentH3 = parentAccItem.querySelector("h3");
+
+      if (parentH3 != null)
+      {
+        resultLink.href = "#" + parentH3.id;
+      }
+
       resultLink.appendChild(resultElement);
       searchResults.appendChild(resultLink);
     });
