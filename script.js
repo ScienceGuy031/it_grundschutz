@@ -59,45 +59,33 @@ document.addEventListener("DOMContentLoaded", function () {
       resultElement.appendChild(resultText);
       resultElement.addEventListener("click", function(e){
         let accButton;
-        let accordionItemParent;
         let accordionItem = result.closest(".accordion-item");
 
-        if (accordionItem != null){
+        while (accordionItem != null){
           accButton = accordionItem.querySelector("button");
-          accordionItemParent = accordionItem.closest(".outer-accordion");
-        }
-        
-        if (accordionItemParent != null)
-        {
-          outerAccButton = accordionItemParent.querySelector("button");
-          if (outerAccButton != null && outerAccButton.classList.contains("collapsed"))
-          {
-            outerAccButton.click();
-          }
-        }
+          if (accButton != null && accButton.classList.contains("collapsed"))
+            accButton.click();
 
-        if (accButton != null && accButton.classList.contains("collapsed"))
-          accButton.click();
+          accordionItem = accordionItem.parentNode.closest(".accordion-item");
+        }
       });
 
       let parentAccItem = result.closest(".accordion-item");
-      let grantParentAccItem;
+      let controlItem = parentAccItem;
       let parentH3;
-      if (parentAccItem != null)
+      while (controlItem != null)
       {
-        parentH3 = parentAccItem.querySelector("h3");
-        grantParentAccItem = parentAccItem.closest(".outer-accordion");
-
-        if (grantParentAccItem != null)
-        {
-          parentH3 = grantParentAccItem.querySelector("h3");
-        }
-
+        parentAccItem = controlItem;
+        controlItem = parentAccItem.parentNode.closest(".outer-accordion");
       }
-        
-      if (parentH3 != null)
-      {
-        resultLink.href = "#" + parentH3.id;
+
+      if (parentAccItem != null){
+        parentH3 = parentAccItem.querySelector("h3");
+
+        if (parentH3 != null)
+        {
+          resultLink.href = "#" + parentH3.id;
+        }
       }
 
       resultLink.appendChild(resultElement);
