@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchableH2s = Array.from(document.body.getElementsByTagName("h2"));
   const searchableH3s = Array.from(document.body.getElementsByTagName("h3"));
   const searchableH4s = Array.from(document.body.getElementsByTagName("h4"));
+
   searchableUls.forEach((el) => {
     if (!el.classList.contains("searchExclude")) {
       searchableElements.push(el);
@@ -42,6 +43,15 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function renderResults(results) {
+
+    Array.from(document.body.getElementsByClassName("accordion-button")).forEach(e => 
+    {
+      if (!e.classList.contains("collapsed"))
+        {
+          e.click();
+        }
+    });
+
     searchResults.innerHTML = "";
     results.forEach((result) => {
       const resultLink = document.createElement("a");
